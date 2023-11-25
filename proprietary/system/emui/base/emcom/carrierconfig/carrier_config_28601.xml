@@ -3,7 +3,7 @@
     <!-- CELL TR -->
     <carrier_config>
         <!--UT NO TA -->
-        <int name="callWaitingMode" value="11" />
+        <int name="callWaitingMode" value="7" />
         <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
         <!--VOLTE NO TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
@@ -28,5 +28,11 @@
         <string name="wfc_format_wifi_string">%1$s Wi-Fi</string>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- AR000BE5VT dwx513026 29102018 begin -->
+        <boolean name="carrier_hide_network_mode_bool" value="true"/>
+        <!-- AR000BE5VT dwx513026 29102018 end -->
+        <!-- AR000BKLFT wwx533230 20181206 begin -->
+        <boolean name="carrier_show_4g_to_4point5g_bool" value="true"/>
+        <!-- AR000BKLFT wwx533230 20181206 end -->
     </carrier_config>
 </carrier_config_list>

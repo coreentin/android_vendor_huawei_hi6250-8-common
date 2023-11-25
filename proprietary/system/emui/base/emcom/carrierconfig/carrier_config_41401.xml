@@ -4,5 +4,9 @@
         <!--Google Message config begin -->
         <boolean name="groupChatDefaultsToMMS" value="false" />
         <!--Google Message config end -->
+        <!-- Volte UT -->
+        <int name="callWaitingMode" value="11"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc001.mcc414.pub.3gppnetwork.org</string>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>

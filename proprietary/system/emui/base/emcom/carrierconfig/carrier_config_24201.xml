@@ -28,5 +28,7 @@
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <string name="wfc_spn_string">TELENOR</string>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi</string>
     </carrier_config>
 </carrier_config_list>

@@ -23,5 +23,11 @@
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
+        <int name="Ikev2EapAkaNoAtCheckCode" value="1" />
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <!-- AR000ETCJR   j84095112 20200909 begin -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- AR000ETCJR   j84095112 20200909 end -->
     </carrier_config>
 </carrier_config_list>

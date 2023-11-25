@@ -21,5 +21,12 @@
         <int name="vowifiRoamingConfig" value="0" />
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <string name="wfc_spn_string">Orange</string>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi</string>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <boolean name="carrier_pop_wfc_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>

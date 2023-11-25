@@ -23,7 +23,8 @@
         <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
         <int name="Ikev2IPsecSaRekeyTimeSec" value="1500"/>
         <boolean name="vowifi_roaming_switch" value="true"/>
-        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <string name="wfc_spn_string">VoWiFi</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifi_UT_APN">internet.ideasclaro</string>
         <boolean name="vowifi_mms_switch" value="true"/>

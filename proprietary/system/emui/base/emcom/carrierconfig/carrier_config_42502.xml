@@ -3,30 +3,37 @@
     <!-- CELLCOM IL -->
     <carrier_config>
         <!--UT NO TA-->
-        <string name="utXcapRootUri">MyService</string>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <int name="utUseApn" value="1"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <int name="callWaitingMode" value="11"/>
         <int name="utNafPort" value="8090"/>
+        <int name="utOIRSourceMode" value="1"/>
         <int name="utBearType" value="2"/>
-        <boolean name="utBsfAuthBeUsed" value="false"/>
+        <!--VOLTE NO TA -->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101000</string>
         <!-- Vowifi UI -->
         <string name="carrier_vowifi_hd_icon_flag">10101000</string>
         <!--VOWIFI NO TA -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifiHplmnListItem">42502, epdg.epc.mnc002.mcc425.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
-        <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
         <string name="EspEncAlg">RCT_ALG_AES128_CBC</string>
         <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256</string>
         <int name="Ikev2PcscfIpv4Address" value="16389"/>
         <int name="Ikev2PcscfIpv6Address" value="16390"/>
-        <string name="vowifiRssiThreshold">-65,-85,-6,-10</string>
-        <string name="vowifiWifiChip24GConf">-85,-75,3,1</string>
-        <string name="vowifiWifiChip5GConf">-85,-75,3,1</string>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
+        <string name="vowifi_UT_APN">xcap</string>
         <int name="vowifiRoamingConfig" value="0"/>
-        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="false"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi calling</string>
     </carrier_config>
 </carrier_config_list>

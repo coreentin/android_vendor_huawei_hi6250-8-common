@@ -3,6 +3,7 @@
 <carrier_config_list>
   <!--DT_AL 27601-->
   <carrier_config>
+    <boolean name="vm_edit_to_sim_bool" value="false"/>
     <!-- UT NO TA -->
     <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
     <boolean name="CFNRcChangeWithCFNL" value="false"/>

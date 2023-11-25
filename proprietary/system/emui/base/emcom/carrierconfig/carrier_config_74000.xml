@@ -8,8 +8,7 @@
         <int name="callWaitingMode" value="7"/>
         <!--VOLTE NO TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
-        <boolean name="suppport_cnap_bool" value="true"/>
         <!-- Volte UI -->
-        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <string name="carrier_volte_hd_icon_flag">00101001</string>
     </carrier_config>
 </carrier_config_list>

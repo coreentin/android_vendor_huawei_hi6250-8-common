@@ -4,12 +4,12 @@
     <carrier_config>
         <!--UT TA-->
         <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
-        <int name="callWaitingMode" value="11"/>
+        <int name="callWaitingMode" value="7"/>
         <int name="utOIRSourceMode" value="1"/>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
-        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <string name="carrier_volte_hd_icon_flag">00100000</string>
         <!--VOWIFI NO TA-->
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>

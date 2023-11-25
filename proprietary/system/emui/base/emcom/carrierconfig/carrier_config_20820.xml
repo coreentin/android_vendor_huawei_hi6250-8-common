@@ -9,6 +9,7 @@
         <int name="utNafPort" value="4000"/>
         <int name="utBsfPort" value="4001"/>
         <string name="utParamsCfg">1:1,6:1</string>
+        <int name="utUseApn" value="3" />
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->

@@ -45,9 +45,16 @@
         <boolean name="wfc_is_show_no_service" value="true"/>
         <boolean name="wfc_is_show_emergency_only" value="true"/>
         <boolean name="wfc_is_show_air_plane" value="true"/>
-        <string name="carrier_vowifi_hd_icon_flag">00100000</string>
+        <!-- DTS2020081111020  bwx527588 20200901 begin -->
+        <string name="carrier_vowifi_hd_icon_flag">10100000</string>
+        <!-- DTS2020081111020  bwx527588 20200901 end -->
         <boolean name="carrier_wfc_notification_bool" value="true"/>
-        <string name="carrier_vowifi_tips_title">Vodafone WiFi volání zapnuto</string>
-        <string name="carrier_vowifi_tips_flag">0101</string>
+        <string name="carrier_vowifi_tips_title">Vodafone WiFi volání</string>
+        <!-- DTS2020081111020   j84095112 20200813 begin -->
+        <string name="carrier_vowifi_tips_flag">0100</string>
+        <string key="wfc_spn_string">Vodafone WiFi volání</string>
+        <!-- DTS2020081111020   j84095112 20200813 end -->
+        <boolean name="carrier_volte_show_calltrans_bool" value="true"/>
+        <string name="carrier_vowifi_title">WiFi volání</string>
     </carrier_config>
 </carrier_config_list>

@@ -29,9 +29,13 @@
         <boolean name="vowifiStaticRoaming" value="true"/>
         <int name="Ikev2DpdInterval" value="1800"/>
         <int name="Ikev2MaxRetryToSend" value="5"/>
-        <string name="wfc_spn_string">STC</string>
         <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <boolean name="carrier_close_vowifi_airplane_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>

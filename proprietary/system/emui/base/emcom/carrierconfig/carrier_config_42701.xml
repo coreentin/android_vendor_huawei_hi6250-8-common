@@ -37,5 +37,6 @@
         <boolean name="vowifiStaticRoaming" value="true"/>
         <boolean name="vowifi_roaming_switch" value="true"/>
         <boolean name="vowifi_mmsut_roaming_switch" value="true"/>
+        <string name="wfc_format_wifi_string">%1$s</string>
     </carrier_config>
 </carrier_config_list>

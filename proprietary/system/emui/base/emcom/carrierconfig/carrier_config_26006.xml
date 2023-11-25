@@ -16,7 +16,7 @@
         <!--VOLTE NO TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
-        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--VOWIFI NO TA-->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <!-- Vowifi UI -->
@@ -34,10 +34,11 @@
         <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
         <int name="Ikev2SaLifeTime" value="3600"/>
         <int name="Ikev2MaxRetryToSend" value="2"/>
-        <int name="IPsecSaLifeTime" value="1800"/>
+        <int name="IPsecSaLifeTime" value="2850"/>
         <int name="Ikev2DpdInterval" value="60"/>
         <int name="Ikev2PcscfIpv4Address" value="20"/>
         <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
         <string name="vowifi_UT_APN">XCAP</string>
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
@@ -46,5 +47,8 @@
         <string name="wfc_spn_string">PLAY:</string>
         <string name="wfc_format_wifi_string">%1$s Wi-Fi Calling</string>
         <boolean name="carrier_cust_answericon_vowifi_bool" value="true"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="60"/>
+        <int name="Ikev2MacAddrSupport" value="1" />
     </carrier_config>
 </carrier_config_list>

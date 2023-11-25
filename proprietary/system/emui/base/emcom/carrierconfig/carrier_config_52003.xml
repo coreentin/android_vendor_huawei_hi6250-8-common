@@ -11,9 +11,6 @@
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--VOWIFI NO TA-->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifiHplmnListItem">52003, epdg.epc.mnc003.mcc520.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC</string>
@@ -42,5 +39,7 @@
         <boolean name="vowifi_mmsut_roaming_switch" value="true"/>
         <string name="wfc_spn_string">AIS</string>
         <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
     </carrier_config>
 </carrier_config_list>

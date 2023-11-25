@@ -9,7 +9,7 @@
         <int name="callWaitingMode" value="11"/>
         <string name="utBsfSrvAddr">bsf.ims.mnc003.mcc216.pub.3gppnetwork.org</string>
         <int name="utNafPort" value="8090"/>
-        <string name="utParamsCfg">0:1</string>
+        <string name="utParamsCfg">0:1,19:1</string>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifi_UT_APN">Hos</string>
         <!--VOLTE NO TA-->
@@ -33,5 +33,13 @@
         <boolean name="vowifiStaticRoaming" value="true"/>
         <int name="Ikev2DpdInterval" value="60"/>
         <int name="Ikev2MaxRetryToSend" value="3"/>
+        <string name="wfc_spn_string">Digi HU</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
+        <!--VOWIFI UI-->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <boolean name="carrier_cust_answericon_vowifi_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>

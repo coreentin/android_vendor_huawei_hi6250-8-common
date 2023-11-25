@@ -22,5 +22,7 @@
         <boolean name="vowifiStaticRoaming" value="true"/>
         <!--VOLTE NO TA -->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="carrier_volte_hd_icon_flag">00100001</string>
+        <int name="carrier_show_volte_hd_rule" value="1"/>
     </carrier_config>
 </carrier_config_list>

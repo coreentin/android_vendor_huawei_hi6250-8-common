@@ -30,5 +30,10 @@
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
+        <string name="wfc_spn_string">Movistar</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <!--AR000B5MNN 17082018 begin-->
+        <boolean name="carrier_hide_network_mode_bool" value="true"/>
+        <!--AR000B5MNN 17082018 end-->
     </carrier_config>
 </carrier_config_list>

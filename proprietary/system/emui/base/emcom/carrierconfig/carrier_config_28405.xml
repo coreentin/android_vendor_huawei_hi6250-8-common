@@ -14,6 +14,7 @@
         <!-- AR0009L28M w00186414 2017/09/15 end -->
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="support_hold_tone_bool" value="true"/>
         <!--VOWIFI NO TA-->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <string name="vowifiHplmnListItem">28405, epdg.epc.mnc005.mcc284.pub.3gppnetwork.org</string>
@@ -41,5 +42,6 @@
         <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
     </carrier_config>
 </carrier_config_list>

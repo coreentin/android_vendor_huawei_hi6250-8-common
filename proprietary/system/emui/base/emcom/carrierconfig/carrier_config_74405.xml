@@ -5,5 +5,7 @@
        <!--UT NO TA-->
        <int name="callWaitingMode" value="11"/>
        <string name="utXcapRootUri">MyServices</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00010000</string>
    </carrier_config>
 </carrier_config_list>

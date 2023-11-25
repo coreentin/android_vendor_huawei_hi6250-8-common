@@ -39,5 +39,7 @@
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <boolean name="hide_wfc_dialog_cancel_btn" value="true"/>
+        <!-- VOWIFI UI-->
+        <string name="is_show_vowifi_tile_flag">true</string>
     </carrier_config>
 </carrier_config_list>

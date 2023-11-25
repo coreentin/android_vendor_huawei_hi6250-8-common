@@ -6,6 +6,7 @@
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="callWaitingMode" value="11"/>
         <!--VOLTE NO TA-->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!--VOWIFI NO TA-->
         <boolean name="vowifi_mms_switch" value="true"/>

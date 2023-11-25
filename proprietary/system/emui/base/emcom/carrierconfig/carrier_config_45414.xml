@@ -34,5 +34,9 @@
         <string name="vowifiWifiChip5GConf">-85,-78,3,1</string>
         <string name="wfc_format_wifi_string">%1$s</string>
         <boolean name="wfc_is_show_air_plane" value="true"/>
+        <string name="carrier_networkmode_gstyle">true</string>
+        <!--DTS2019011008265 j84095112 20190122 begin -->
+        <boolean name="carrier_close_vowifi_airplane_bool" value="true" />
+        <!--DTS2019011008265 j84095112 20190122 end -->
     </carrier_config>
 </carrier_config_list>

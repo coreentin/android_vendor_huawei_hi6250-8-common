@@ -17,7 +17,11 @@
         <string name="carrier_vowifi_hd_icon_flag">10101010</string>
         <!--VOWIFI NO TA-->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <!-- AR000BA6DC SWX531934 20180924 begin -->
         <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
+        <!-- AR000BA6DC SWX531934 20180924 20180328 end -->
         <boolean name="carrier_disable_supplement_bool" value="true"/>
         <string name="vowifiHplmnListItem">20810, epdg.epc.mnc010.mcc208.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>

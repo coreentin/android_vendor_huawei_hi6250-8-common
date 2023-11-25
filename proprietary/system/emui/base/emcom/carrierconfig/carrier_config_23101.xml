@@ -11,18 +11,18 @@
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--VOWIFI NO TA-->
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <!-- Vowifi UI -->
         <string name="carrier_vowifi_hd_icon_flag">10100000</string>
-        <boolean name="vowifi_mms_switch" value="true"/>
+        <string name="is_show_vowifi_tile_flag">true</string>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifiHplmnListItem">23101, epdg.epc.mnc001.mcc231.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256</string>
-        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP2048,RCT_ALG_MODP1536</string>
         <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
-        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256</string>
         <int name="Ikev2SaLifeTime" value="86400" />
         <int name="IPsecSaLifeTime" value="86400" />
         <int name="Ikev2IkeSaRekeyTimerSec" value="64800" />
@@ -36,5 +36,7 @@
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
         <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="carrier_pop_wfc_bool" value="true"/>
+        <boolean name="wfc_carrier_setting_ft" value="true"/>
     </carrier_config>
 </carrier_config_list>

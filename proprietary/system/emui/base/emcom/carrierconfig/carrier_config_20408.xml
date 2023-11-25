@@ -16,5 +16,8 @@
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <!-- Google Message config begin -->
+        <boolean name="enabledMMS" value="false" />
+        <!-- Google Message config end -->
     </carrier_config>
 </carrier_config_list>

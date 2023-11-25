@@ -2,6 +2,7 @@
 <carrier_config_list>
     <!-- RCSRDS RO -->
     <carrier_config>
+        <int name="cbs_discard_strangechar_int" value="1" />
         <!--UT NO TA-->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <!-- Volte UI -->

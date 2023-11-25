@@ -19,5 +19,8 @@
         <string name="vowifiRssiThreshold">-65,-85,-6,-10</string>
         <string name="vowifiWifiChip24GConf">-85,-75,3,1</string>
         <string name="vowifiWifiChip5GConf">-85,-75,3,1</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">00101010</string>
     </carrier_config>
 </carrier_config_list>

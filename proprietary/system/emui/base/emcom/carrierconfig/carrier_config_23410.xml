@@ -31,15 +31,16 @@
         <string name="utParamsCfg">0:1,1:1</string>
         <int name="utOIRSourceMode" value="1"/>
         <!--VOLTE NO TA-->
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">00000000</string>
-        <boolean name="carrier_volte_show_switch_bool" value="false"/>
         <!--VOWIFI NO TA-->
+        <string name="carrier_vowifi_title">Wifi Calling</string>
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
         <int name="carrier_default_wfc_ims_mode_int" value="3"/>
         <boolean name="vowifi_mms_switch" value="true"/>
-        <boolean name="vowifi_ut_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="false"/>
         <string name="vowifiHplmnListItem">23410, epdg.epc.mnc010.mcc234.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC, RCT_ALG_AES128_CBC, RCT_ALG_AES256_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1, RCT_ALG_AES_XCBC</string>
@@ -63,5 +64,8 @@
         <string-array name="wfc_operator_error_codes_string_array" num="1">
             <item value="REG09|0"/>
         </string-array>
+        <!--AR000EL37N jwx630752 20200715 begin-->
+        <int name="allow_mms_property_int" value="4"/>
+        <!--AR000EL37N jwx630752 20200715 end-->
     </carrier_config>
 </carrier_config_list>

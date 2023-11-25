@@ -71,5 +71,6 @@
         <int name="IpTos" value="136"/>
         <int name="Ikev2MaxRetryToSend" value="4"/>
         <int name="Ikev2Reserved0" value="1" />
+        <string name="carrier_hide_number_flag">111</string>
     </carrier_config>
 </carrier_config_list>

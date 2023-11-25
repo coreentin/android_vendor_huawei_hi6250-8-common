@@ -3,6 +3,7 @@
     <carrier_config>
         <!--Google Message config begin -->
         <int name="maxMessageSize" value="614400" />
+        <boolean name="groupChatDefaultsToMMS" value="false" />
         <!--Google Message config end -->
     </carrier_config>
 </carrier_config_list>

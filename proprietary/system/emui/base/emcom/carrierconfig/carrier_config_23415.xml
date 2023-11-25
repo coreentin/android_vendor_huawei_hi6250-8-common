@@ -6,6 +6,9 @@
         <int name="smsToMmsTextThreshold" value="10" />
         <boolean name="groupChatDefaultsToMMS" value="false" />
         <!--Google Message config end -->
+        <!--AR000EL37N jwx630752 20200715 begin-->
+        <int name="allow_mms_property_int" value="4"/>
+        <!--AR000EL37N jwx630752 20200715 end-->
         <!--UT NO TA-->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="utUseApn" value="1"/>
@@ -56,14 +59,16 @@
         <boolean name="vowifi_support_roaming_status_cached" value="true"/>
         <string name="carrier_vowifi_hd_icon_flag">00100000</string>
         <boolean name="carrier_wfc_notification_bool" value="true"/>
-        <string name="carrier_vowifi_tips_title">Vodafone WiFi Call enabled</string>
+        <string name="carrier_vowifi_tips_title">Vodafone WiFi Call</string>
         <string name="carrier_vowifi_tips_flag">0101</string>
+        <string name="carrier_vowifi_title">WiFi Call</string>
         <!--RCS config begin -->
         <string name="ims_ip">72.10.10.10</string>
         <string name="ims_port">5060</string>
         <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
         <string name="hw_rcs_version">1</string>
         <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <string name="RCS_PEER_NAME_ON">1</string>
         <!--RCS config end -->
     </carrier_config>
     <carrier_config spn="null">

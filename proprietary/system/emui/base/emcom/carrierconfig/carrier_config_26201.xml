@@ -2,7 +2,9 @@
 <carrier_config_list>
     <!-- DT DE -->
     <carrier_config>
+        <boolean name="vm_edit_to_sim_bool" value="false"/>
         <!--UT TA-->
+        <int name="vowifi_mmsut_pdn_type" value="1"/>
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="utUseApn" value="1"/>
         <boolean name="CFNRcChangeWithCFNL" value="false"/>
@@ -10,8 +12,8 @@
         <boolean name="ImsStateFollowVoiceDomain" value="false"/>
         <int name="callWaitingMode" value="11"/>
         <boolean name="hangUpWhenLostNet" value="true"/>
-        <string name="utParamsCfg">0:1,19:1</string>
-        <boolean name="utBsfAuthBeUsed" value="true"/>
+        <string name="utParamsCfg">0:1,19:1,17:1</string>
+        <boolean name="utBsfAuthBeUsed" value="false"/>
         <int name="utOIRSourceMode" value="1"/>
         <boolean name="carrier_build_version_bool" value="true"/>
         <boolean name="use_403_for_local_cw" value="true"/>
@@ -32,7 +34,7 @@
         <string name="vowifiHplmnListItem">26201, epdg.epc.mnc001.mcc262.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512</string>
-        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
         <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
         <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
@@ -57,6 +59,8 @@
         <string name="wfc_spn_string">WLAN Call</string>
         <string name="wfc_format_wifi_string">%1$s</string>
         <string name="dt_profile">1</string>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="60"/>
         <!--DT RCS -->
         <string name="huawei_rcs_enabler">true</string>
         <!--IS_VS_Capability check config -->
@@ -72,91 +76,5 @@
         <string name="ui_order_support">false</string>
         <string name="KEEP_RESUME_TIMER_LENGTH">10000</string>
         <!--DT RCS -->
-    </carrier_config>
-    <carrier_config gid1="01">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config gid1="02">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config gid1="03">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config gid1="04">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config gid1="99">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config gid1="4B">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config gid1="44">
-        <!--VOLTE TA-->
-        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
-        <!--VOWIFI TA-->
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-        <boolean name="vowifi_mms_switch" value="true"/>
-        <boolean name="vowifi_ut_switch" value="true"/>
-        <string name="wfc_spn_string">WLAN Call</string>
-        <string name="wfc_format_wifi_string">%1$s</string>
-    </carrier_config>
-    <carrier_config spn="Telekom\.de">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config spn="T-Mobile D">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config spn="Business">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config spn="Privat">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-    </carrier_config>
-    <carrier_config spn="congstar">
-        <!--VOLTE TA-->
-        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
-        <!--VOWIFI TA-->
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-        <boolean name="vowifi_mms_switch" value="true"/>
-        <boolean name="vowifi_ut_switch" value="true"/>
-        <string name="wfc_spn_string">WLAN Call</string>
-        <string name="wfc_format_wifi_string">%1$s</string>
-    </carrier_config>
-    <carrier_config spn="congstar\.de">
-        <!--VOLTE TA-->
-        <boolean name="carrier_default_volte_switch_on_bool" value="false"/>
-        <!--VOWIFI TA-->
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
-        <boolean name="vowifi_mms_switch" value="true"/>
-        <boolean name="vowifi_ut_switch" value="true"/>
-        <string name="wfc_spn_string">WLAN Call</string>
-        <string name="wfc_format_wifi_string">%1$s</string>
     </carrier_config>
 </carrier_config_list>

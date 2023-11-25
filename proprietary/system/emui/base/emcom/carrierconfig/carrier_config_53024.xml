@@ -27,6 +27,6 @@
        <string name="wfc_spn_string">2degrees</string>
        <string name="wfc_format_wifi_string">%1$s WiFi Calling</string>
        <!-- VoWiFi UI -->
-       <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+       <string name="carrier_vowifi_hd_icon_flag">10001010</string>
    </carrier_config>
 </carrier_config_list>

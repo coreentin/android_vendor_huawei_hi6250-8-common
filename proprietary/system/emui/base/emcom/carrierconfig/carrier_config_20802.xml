@@ -10,5 +10,6 @@
         <!--Google Message config begin -->
         <int name="maxMessageSize" value="614400" />
         <!--Google Message config end -->
+        <string name="is_show_vowifi_tile_flag">true</string>
 </carrier_config>
 </carrier_config_list>

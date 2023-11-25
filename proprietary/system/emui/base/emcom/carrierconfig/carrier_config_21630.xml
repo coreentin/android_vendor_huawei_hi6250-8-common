@@ -2,6 +2,7 @@
 <carrier_config_list>
     <!-- DT HU -->
     <carrier_config>
+        <boolean name="vm_edit_to_sim_bool" value="false"/>
         <!--UT NO TA-->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="utUseApn" value="3"/>
@@ -10,7 +11,7 @@
         <boolean name="ImsStateFollowVoiceDomain" value="false"/>
         <int name="callWaitingMode" value="11"/>
         <int name="utBsfPort" value="80"/>
-        <string name="utParamsCfg">0:1,19:1</string>
+        <string name="utParamsCfg">0:1,17:1,19:1</string>
         <int name="utOIRSourceMode" value="1"/>
         <boolean name="carrier_build_version_bool" value="true"/>
         <boolean name="use_403_for_local_cw" value="true"/>
@@ -23,5 +24,7 @@
         <!--Google Message config begin -->
         <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
         <!--Google Message config end -->
+        <string name="carrier_vowifi_hd_icon_flag">10000000</string>
+        <string name="carrier_vowifi_title">WiFi hívások</string>
     </carrier_config>
 </carrier_config_list>

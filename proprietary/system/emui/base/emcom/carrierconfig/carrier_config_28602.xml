@@ -6,7 +6,7 @@
         <int name="smsToMmsTextThreshold" value="10" />
         <!--Google Message config end -->
         <!--UT NO TA-->
-        <int name="callWaitingMode" value="11"/>
+        <int name="callWaitingMode" value="7"/>
         <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
@@ -32,5 +32,14 @@
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <boolean name="carrier_show_4g_to_4point5g_bool" value="true"/>
         <boolean name="carrier_hide_network_mode_bool" value="true"/>
+        <!--RCS config begin -->
+        <string name="ims_ip">72.10.10.10</string>
+        <string name="ims_port">5060</string>
+        <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
+        <string name="hw_rcs_version">1</string>
+        <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <string name="huawei_rcs_enabler">true</string>
+        <string name="RCS_PEER_NAME_ON">1</string>
+        <!--RCS config end -->
     </carrier_config>
 </carrier_config_list>

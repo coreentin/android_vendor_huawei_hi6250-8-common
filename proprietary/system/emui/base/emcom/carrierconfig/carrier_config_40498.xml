@@ -4,5 +4,24 @@
     <!--AIRTEL_IN 40498-->
     <carrier_config>
         <int name="callWaitingMode" value="7"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="vowifiHplmnListItem">40498, epdg.epc.mnc098.mcc404.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_MD5,RCT_ALG_AES_XCBC</string>
+        <int name="Ikev2IkeSaRekeyTimerSec" value="86400"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <string name="vowifiRssiThreshold">-65,-85,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-85,-78,3,1</string>
+        <string name="vowifiWifiChip5GConf">-85,-78,3,1</string>
     </carrier_config>
 </carrier_config_list>

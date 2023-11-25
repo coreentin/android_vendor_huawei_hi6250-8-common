@@ -6,12 +6,15 @@
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="callWaitingMode" value="3"/>
         <int name="utUseApn" value="1" />
+        <int name="utBsfPort" value="80"/>
         <!--VOLTE-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">01010101</string>
         <!--VOWIFI-->
-        <string name="carrier_vowifi_hd_icon_flag">10001010</string>
+        <!-- AR000AUS53 yanhan y00384228 20180721 begin -->
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
+        <!-- AR000AUS53 yanhan y00384228 20180721 end -->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="vowifiRoamingConfig" value="0" />
@@ -33,4 +36,7 @@
         <string name="wfc_spn_string">3 DK</string>
         <string name="wfc_format_wifi_string">%1$s WiFi</string>
     </carrier_config>
+        <carrier_config imsi="23806009.*">
+            <string name="wfc_spn_string">Oister</string>
+        </carrier_config>
 </carrier_config_list>

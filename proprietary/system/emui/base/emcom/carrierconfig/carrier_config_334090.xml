@@ -8,6 +8,7 @@
         <string name="utRetryInterval">500,500</string>
         <string name="utParamsCfg">0:1,15:1</string>
         <boolean name="support_hold_tone_bool" value="true"/>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <!--Volte UI-->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--VOLTE NO TA-->
@@ -15,16 +16,22 @@
         <!--use custom User-Agent in Google Message-->
         <boolean name="useCustomUserAgent" value="true" />
         <!--Vowifi NO TA-->
-        <string name="vowifiHplmnListItem">334090, epdg.epc.090.mcc334.pub.3gppnetwork.org</string>
+        <string name="vowifiHplmnListItem">334090, epdg.ims.attmex.mx</string>
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
-        <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
-        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_AES_XCBC</string>
-        <string name="Ikev2HashAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_AES_XCBC</string>
-        <string name="Ikev2DhGroup">RCT_ALG_MODP768,RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048,RCT_ALG_MODP3072,RCT_ALG_MODP4096,RCT_ALG_MODP6144,RCT_ALG_MODP8192</string>
-        <string name="EspEncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC,RCT_ALG_AES256_CBC</string>
-        <string name="EspAuthAlg">RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512,RCT_ALG_AES_XCBC</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1536</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <boolean name="vowifi_mmsut_roaming_switch" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifi_UT_APN">xcap.ims.attmex.mx</string>
+        <int name="Ikev2NatKeepAliveTime" value="60"/>
         <string name="carrier_wb_hd_icon_flag">010001</string>
+        <boolean name="carrier_hide_clir_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>

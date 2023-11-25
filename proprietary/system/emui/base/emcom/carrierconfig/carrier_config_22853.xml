@@ -5,6 +5,7 @@
         <!--UT NO TA-->
         <int name="callWaitingMode" value="11"/>
         <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
         <!--VOWIFI NO TA-->
         <int name="vowifiRoamingConfig" value="0" />
         <int name="Ikev2SaLifeTime" value="86400" />
@@ -23,7 +24,6 @@
         <string name="vowifiWifiChip5GConf">-70,-63,3,1</string>
         <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
         <string name="wfc_format_wifi_string">%1$s WiFi calling</string>
         <string name="wfc_spn_string">upc ch</string>
         <int name="Ikev2PcscfIpv4Address" value="20" />

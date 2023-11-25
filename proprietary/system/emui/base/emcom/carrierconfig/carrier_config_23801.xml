@@ -8,6 +8,8 @@
         <int name="callWaitingMode" value="11"/>
         <int name="utBsfPort" value="80"/>
         <string name="utParamsCfg">0:1,1:1</string>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="utOIRSourceMode" value="1"/>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
@@ -15,6 +17,7 @@
         <!--VOWIFI TA-->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <boolean name="vowifi_ut_switch" value="true"/>
+        <int name="vowifi_mmsut_pdn_type" value="2"/>
         <string name="vowifiHplmnListItem">23801, epdg.epc.mnc001.mcc238.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>

@@ -20,7 +20,11 @@
         <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
         <string name="hw_rcs_version">1</string>
         <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <string name="RCS_PEER_NAME_ON">1</string>
         <!--RCS config end -->
+        <!-- Google Message config begin -->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!-- Google Message config end -->
     </carrier_config>
     <carrier_config spn="null">
         <string name="huawei_rcs_enabler">true</string>

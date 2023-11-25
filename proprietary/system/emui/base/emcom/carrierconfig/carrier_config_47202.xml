@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<carrier_config_list>
+  <!--Ooredoo_MV_47202-->
+  <carrier_config>
+        <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false" />
+        <int name="utUseApn" value="1"/>
+        <string name="ssTypeUseCsOnly">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,22,23</string>
+        <int name="utBsfPort" value="80"/>
+        <int name="callWaitingMode" value="11"/>
+        <int name="setDefaultNoReplyTimer" value="0"/>
+        <string name="carrier_volte_hd_icon_flag">00101010</string>
+        <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!-- VOWIFI -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <string name="vowifiHplmnListItem">47202, epdg.epc.mnc002.mcc472.pub.3gppnetwork.org</string>
+        <int name="Ikev2SelfIdType" value="63"/>
+        <int name="Ikev2PeerIdType" value="65"/>
+        <int name="Ikev2PcscfIpv4Address" value="16389"/>
+        <int name="Ikev2PcscfIpv6Address" value="16390"/>
+        <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <int name="Ikev2MaxRetryToSend" value="1"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <string name="vowifi_UT_APN">xcap</string>
+        <string name="wfc_spn_string">Ooredoo</string>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi Calling</string>
+        <boolean name="vowifiSupportFirmwareKA" value="true"/>
+  </carrier_config>
+</carrier_config_list>

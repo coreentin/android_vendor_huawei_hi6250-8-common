@@ -10,5 +10,6 @@
 <string name="RCS_CARRIER_CONFIG_USE_IMS_APN">1</string>
 <string name="CONFIG_MAJOR_RCS_SUPPORT_VOLTE_UCE">true</string>
 <!--RCS config end -->
+<string name="carrier_volte_hd_icon_flag">00000000</string>
 </carrier_config>
 </carrier_config_list>

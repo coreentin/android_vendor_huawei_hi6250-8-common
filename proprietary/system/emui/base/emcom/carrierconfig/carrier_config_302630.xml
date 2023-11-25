@@ -16,13 +16,14 @@
         <!--VOLTE TA -->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!--VOWIFI TA -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <string name="vowifiHplmnListItem">302630, epdg.epc.mnc630.mcc302.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256</string>
-        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
-        <string name="EspEncAlg">RCT_ALG_AES128_CBC, RCT_ALG_AES256_CBC, RCT_ALG_DES3_CBC, RCT_ALG_AES192_CBC</string>
-        <string name="EspAuthAlg">RCT_ALG_AES_XCBC,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384,RCT_ALG_HMAC_SHA2_512</string>
+        <string name="EspEncAlg">RCT_ALG_AES256_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA2_256</string>
         <int name="Ikev2SaLifeTime" value="80000" />
         <int name="IPsecSaLifeTime" value="80000" />
         <int name="Ikev2IkeSaRekeyTimerSec" value="64800" />
@@ -34,6 +35,13 @@
         <int name="vowifiRoamingConfig" value="0" />
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
+        <boolean name="vowifi_mms_switch" value="true"/>
+        <!--VOWIFI NO TA -->
+        <string name="vowifi_UT_APN">apps.bell.ca</string>
+        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
         <!--Google Message config begin -->
         <boolean name="useCustomUserAgent" value="true" />
         <!--Google Message config end -->

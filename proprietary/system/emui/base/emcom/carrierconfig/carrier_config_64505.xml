@@ -30,5 +30,6 @@
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="wfc_format_wifi_string">%1$s</string>
     </carrier_config>
 </carrier_config_list>

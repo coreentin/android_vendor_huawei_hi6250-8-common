@@ -2,6 +2,7 @@
 <carrier_config_list>
     <!-- DT CZ -->
     <carrier_config>
+        <boolean name="vm_edit_to_sim_bool" value="false"/>
         <!--UT TA-->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="utUseApn" value="3"/>
@@ -16,7 +17,7 @@
         <boolean name="use_403_for_local_cw" value="true"/>
         <boolean name="carrier_xcap_data_roaming_switch" value="true"/>
         <boolean name="utUseMultiCF" value="true"/>
-        <string name="utParamsCfg">19:1</string>
+        <string name="utParamsCfg">19:1,17:1</string>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->
@@ -27,13 +28,14 @@
         <string name="carrier_vowifi_hd_icon_flag">00100000</string>
         <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
         <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="3"/>
         <boolean name="vowifi_mms_switch" value="true"/>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifiHplmnListItem">23001, epdg.epc.mnc001.mcc230.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_512</string>
-        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5,RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP1024,RCT_ALG_MODP1536,RCT_ALG_MODP2048</string>
         <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC,RCT_ALG_AES192_CBC</string>
         <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_MD5</string>
@@ -57,6 +59,8 @@
         <string name="wfc_spn_string">T-Mobile CZ</string>
         <string name="wfc_format_wifi_string">%1$s Wi-Fi</string>
         <boolean name="carrier_record_last_network_roaming_bool" value="true"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="60"/>
         <int name="smsToMmsTextThreshold" value="3" />
     </carrier_config>
 </carrier_config_list>

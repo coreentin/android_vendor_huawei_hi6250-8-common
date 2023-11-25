@@ -33,9 +33,11 @@
         <string name="vowifiRssiThreshold">-66,-79,-6,-7</string>
         <string name="vowifiWifiChip24GConf">-79,-72,3,1</string>
         <string name="vowifiWifiChip5GConf">-79,-72,3,1</string>
+        <boolean name="vowifi_roaming_switch" value="true" />
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--use custom User-Agent in Google Message-->
         <boolean name="useCustomUserAgent" value="true" />
+        <boolean name="carrier_hide_lte_high_speed_bool" value="true" />
     </carrier_config>
 </carrier_config_list>

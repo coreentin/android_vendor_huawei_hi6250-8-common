@@ -9,7 +9,7 @@
         <!--VOLTE TA -->
         <boolean name="carrier_default_volte_switch_on_bool" value="true" />
         <!-- Volte UI -->
-        <string name="carrier_volte_hd_icon_flag">00000000</string>
+        <string name="carrier_volte_hd_icon_flag">00010101</string>
         <!--VOWIFI TA -->
         <boolean name="vowifi_ut_switch" value="true" />
         <string name="vowifiHplmnListItem">22299, epdg.epc.mnc099.mcc222.pub.3gppnetwork.org</string>
@@ -31,5 +31,8 @@
         <int name="vowifiRoamingConfig" value="0" />
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
+        <!-- Google Message config begin -->
+        <boolean name="groupChatDefaultsToMMS" value="false" />
+        <!-- Google Message config end -->
     </carrier_config>
 </carrier_config_list>

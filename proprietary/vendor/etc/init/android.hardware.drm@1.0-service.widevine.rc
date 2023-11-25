@@ -7,6 +7,7 @@ service drm-widevine-hal-1-0 /vendor/bin/hw/android.hardware.drm@1.0-service.wid
     group mediadrm drmrpc
     ioprio rt 4
     writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks
+    setenv LD_LIBRARY_PATH /vendor/lib
 
 on property:persist.sys.restart.mediadrm=true
     restart drm-widevine-hal-1-0

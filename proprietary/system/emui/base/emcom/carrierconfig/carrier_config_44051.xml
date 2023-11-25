@@ -4,6 +4,7 @@
     <carrier_config>
         <!--UT TA-->
         <int name="utUseApn" value="1"/>
+        <int name="setDefaultNoReplyTimer" value="10"/>
         <int name="callWaitingMode" value="3"/>
         <string name="utNafSrvAddr">xcap.ims.mnc051.mcc440.pub.3gppnetwork.org</string>
         <int name="utNafPort" value="8090"/>
@@ -13,8 +14,37 @@
         <string name="utParamsCfg">0:1</string>
         <string name="utXcapRootUri">mtasxdms</string>
         <boolean name="utBsfAuthBeUsed" value="true"/>
+        <int name="utOIRSourceMode" value="1"/>
+        <boolean name="suppport_cnap_bool" value="true"/>
+        <boolean name="vowifi_ut_switch" value="true"/>
+        <int name="vowifi_mmsut_pdn_type" value="3"/>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <!--VOWIFI TA-->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <string name="vowifiHplmnListItem">44051, epdg.epc.mnc051.mcc440.pub.3gppnetwork.org</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA2_384</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+        <string name="Ikev2DhGroup">RCT_ALG_MODP2048</string>
+        <string name="EspEncAlg">RCT_ALG_AES128_CBC,RCT_ALG_DES3_CBC</string>
+        <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
+        <int name="Ikev2DpdInterval" value="120"/>
+        <int name="Ikev2PeerIdType" value="64"/>
+        <int name="Ikev2FragmentEnable" value="1"/>
+        <int name="Ikev2BackoffEnable" value="1"/>
+        <int name="Ikev2BackoffTime" value="60"/>
+        <string name="vowifiRssiThreshold">-66,-83,-6,-7</string>
+        <string name="vowifiWifiChip24GConf">-83,-76,3,1</string>
+        <string name="vowifiWifiChip5GConf">-83,-76,3,1</string>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
+        <string name="vowifi_UT_APN">xcap</string>
+        <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <int name="Ikev2NeedPfs" value="1"/>
+        <int name="VowifiRmnetImsMtu" value="1280"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">01010101</string>
         <!-- AR000AL3SV yangqirun/ywx566420 20180601 begin -->

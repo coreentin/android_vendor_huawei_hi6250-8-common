@@ -34,6 +34,9 @@
         <string name="vowifiRssiThreshold">-66,-85,-6,-7</string>
         <string name="vowifi_UT_APN">xcap</string>
         <int name="vowifiRoamingConfig" value="0"/>
+        <boolean name="vowifiStaticUnroaming" value="true"/>
+        <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
         <string name="wfc_format_wifi_string">%1$s</string>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>

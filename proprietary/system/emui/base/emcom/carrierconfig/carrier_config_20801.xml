@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <carrier_config_list>
     <!-- FT FR -->
-<carrier_config>
+    <carrier_config>
         <!--UT NO TA-->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="utUseApn" value="3"/>
@@ -20,6 +20,7 @@
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <!-- Vowifi UI -->
         <string name="carrier_vowifi_hd_icon_flag">10100000</string>
+        <string name="is_show_vowifi_tile_flag">true</string>
         <int name="carrier_default_wfc_ims_mode_int" value="2"/>
         <boolean name="vowifi_mms_switch" value="true"/>
         <boolean name="vowifi_ut_switch" value="true"/>
@@ -53,6 +54,10 @@
         <int name="netmgrVideoInnerDSCP" value="46"/>
         <boolean name="vowifi_change_epdg_with_authentication_fail" value="true"/>
         <int name="Ikev2NeedPfs" value="1"/>
+        <string name="carrier_numbers_opengps">112;15;17;18;115;119;191;196;197;116000;116117</string>
+        <boolean name="getaddrinemergency" value="true"/>
+        <boolean name="supportPassiveLocation" value="true"/>
+        <boolean name="carrier_pop_wfc_bool" value="true"/>
         <!-- VVM -->
         <int name="vvm_port_number_int" value="20481" />
         <string name="vvm_destination_number_string">21101</string>
@@ -60,16 +65,19 @@
         <string name="vvm_type_string">vvm_type_omtp</string>
         <boolean name="vvm_cellular_data_required_bool" value="true"/>
 
-<int name="maxImageHeight" value="1944" />
-<int name="maxMessageSize" value="614400" />
-<int name="maxImageWidth" value="2592" />
-</carrier_config>
-<carrier_config gid1="4E524A31">
+        <boolean name="wfc_carrier_setting_ft" value="true"/>
+        <boolean name="wfc_carrier_setting_ftofr" value="true"/>
+
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxMessageSize" value="614400" />
+        <int name="maxImageWidth" value="2592" />
+    </carrier_config>
+    <carrier_config gid1="4E524A31">
         <!-- VVM -->
         <int name="vvm_port_number_int" value="0" />
         <string name="vvm_destination_number_string">""</string>
         <string name="carrier_vvm_package_name_string">""</string>
         <string name="vvm_type_string">""</string>
         <boolean name="vvm_cellular_data_required_bool" value="false"/>
-</carrier_config>
+    </carrier_config>
 </carrier_config_list>

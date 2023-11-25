@@ -13,8 +13,7 @@
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!-- Vowifi NO TA -->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
-        <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifiHplmnListItem">42004, epdg.epc.mnc004.mcc420.pub.3gppnetwork.org</string>
@@ -43,5 +42,6 @@
         <string name="wfc_spn_string">Zain</string>
         <string name="wfc_format_wifi_string">%1$s WiFiCall</string>
         <boolean name="carrier_close_vowifi_airplane_bool" value="true" />
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
     </carrier_config>
 </carrier_config_list>

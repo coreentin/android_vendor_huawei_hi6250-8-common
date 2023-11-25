@@ -16,11 +16,12 @@
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">00000000</string>
         <!--VOWIFI TA-->
+        <string name="carrier_vowifi_hd_icon_flag">10100010</string>
         <int name="utVoWifiDelayEndTime" value="240000" />
         <string name="vowifi_UT_APN">eezone</string>
         <boolean name="vowifi_ut_switch" value="true" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
-        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
         <boolean name="vowifi_mms_switch" value="true"/>
         <string name="vowifiHplmnListItem">23433, epdg.epc.mnc033.mcc234.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC, RCT_ALG_DES3_CBC, RCT_ALG_AES192_CBC, RCT_ALG_AES256_CBC</string>
@@ -33,12 +34,17 @@
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
         <int name="wfc_spn_format_idx_int" value="0"/>
+        <string name="wfc_spn_string">EE</string>
         <string name="wfc_format_wifi_string">%1$s Wi-Fi Calling</string>
         <boolean name="keep_vowifi_feature_under_emergencycall" value="true"/>
+        <boolean name="mms_follow_vowifi_prefer_domain" value="true"/>
         <string-array  name="wfc_operator_error_codes_string_array" num="1">
             <item value="REG09|0"/>
         </string-array >
 
         <boolean name="prefer_2g_bool" value="false" />
+        <!--AR000EL37N jwx630752 20200715 begin-->
+        <int name="allow_mms_property_int" value="4"/>
+        <!--AR000EL37N jwx630752 20200715 end-->
     </carrier_config>
 </carrier_config_list>

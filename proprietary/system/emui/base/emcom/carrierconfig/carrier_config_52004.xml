@@ -31,5 +31,10 @@
         <boolean name="vowifiStaticRoaming" value="true"/>
         <boolean name="vowifi_roaming_switch" value="true"/>
         <boolean name="vowifi_mmsut_roaming_switch" value="true"/>
+        <string name="wfc_spn_string">TRUE-H</string>
+        <string name="wfc_format_wifi_string">%1$s Wi-Fi</string>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
     </carrier_config>
 </carrier_config_list>

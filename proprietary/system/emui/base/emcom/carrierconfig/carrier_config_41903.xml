@@ -9,5 +9,6 @@
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--VOLTE NO TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="wfc_format_wifi_string">%1$s</string>
     </carrier_config>
 </carrier_config_list>

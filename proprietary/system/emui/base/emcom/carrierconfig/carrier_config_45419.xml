@@ -30,5 +30,6 @@
         <boolean name="wfc_is_show_air_plane" value="true"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <string name="carrier_networkmode_gstyle">true</string>
     </carrier_config>
 </carrier_config_list>

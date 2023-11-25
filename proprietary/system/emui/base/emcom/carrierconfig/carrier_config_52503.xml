@@ -31,6 +31,10 @@
         <int name="IPsecSaLifeTime" value="8640"/>
         <string name="wfc_spn_string">M1</string>
         <string name="wfc_format_wifi_string">%1$s WiFi</string>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="60"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
     </carrier_config>

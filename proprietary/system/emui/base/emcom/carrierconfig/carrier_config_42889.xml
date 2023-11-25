@@ -16,5 +16,6 @@
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
+        <boolean name="carrier_volte_show_switch_bool" value="false"/>
     </carrier_config>
 </carrier_config_list>

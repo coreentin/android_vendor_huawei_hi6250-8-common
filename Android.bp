@@ -48,3 +48,9 @@ dex_import {
 	jars: ["proprietary/system/framework/hwTelephony-common.jar"],
 }
 
+dex_import {
+	name: "hwframework",
+	owner: "huawei",
+	jars: ["proprietary/system/framework/hwframework.jar"],
+}
+

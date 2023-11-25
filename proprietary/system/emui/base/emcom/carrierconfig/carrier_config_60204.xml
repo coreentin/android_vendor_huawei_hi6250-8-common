@@ -5,6 +5,7 @@
         <!-- UT NO TA -->
         <boolean name="utNafUseHttps" value="true" />
         <boolean name="utBsfUsehttps" value="true" />
+        <int name="utUseApn" value="1"/>
         <string name="utBsfSrvAddr">bsf.ims.mnc004.mcc602.pub.3gppnetwork.org</string>
         <!-- VOWIFI NO TA -->
         <string name="vowifiHplmnListItem">60204,epdg.epc.mnc004.mcc602.pub.3gppnetwork.org</string>
@@ -25,5 +26,6 @@
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true" />
         <boolean name="vowifiStaticRoaming" value="true" />
+        <string name="wfc_format_wifi_string">%1$s</string>
     </carrier_config>
 </carrier_config_list>

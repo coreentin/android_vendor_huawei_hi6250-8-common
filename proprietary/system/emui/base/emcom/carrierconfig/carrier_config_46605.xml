@@ -11,7 +11,7 @@
         <!--VOLTE NO TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!--VOWIFI NO TA-->
-        <string name="vowifiHplmnListItem">46605,epdg.epc.aptg.com.tw</string>
+        <string name="vowifiHplmnListItem">46605,epdg.epc.aptg.com.tw;52505,epdg.epc.aptg.com.tw</string>
         <string name="Ikev2EncAlg">RCT_ALG_DES3_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1</string>
         <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
@@ -30,7 +30,9 @@
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
         <boolean name="vowifi_roaming_switch" value="true"/>
+        <string name="wfc_format_wifi_string">%1$s VoWiFi</string>
         <!--use custom User-Agent in Google Message-->
         <boolean name="useCustomUserAgent" value="true" />
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
     </carrier_config>
 </carrier_config_list>

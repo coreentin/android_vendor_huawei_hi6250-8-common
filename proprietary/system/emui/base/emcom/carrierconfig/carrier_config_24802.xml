@@ -4,14 +4,15 @@
     <carrier_config>
         <!--UT NO TA-->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <int name="utUseApn" value="1"/>
         <int name="callWaitingMode" value="11"/>
         <int name="utNafPort" value="9002"/>
-        <string name="utBsfSrvAddr">bsf1.ims.mnc002.mcc248.pub.3gppnetwork.org</string>
+        <string name="utBsfSrvAddr">bsf.ims.mnc002.mcc248.pub.3gppnetwork.org</string>
         <int name="utBsfPort" value="9001"/>
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <string name="utParamsCfg">15:1</string>
         <!-- Vowifi UI -->
-        <string name="carrier_vowifi_hd_icon_flag">00100000</string>
-        <boolean name="carrier_close_vowifi_airplane_bool" value="true"/>
+        <string name="carrier_vowifi_hd_icon_flag">10101010</string>
         <!--VOWIFI NO TA -->
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
         <string name="vowifiHplmnListItem">24802, epdg.epc.mnc002.mcc248.pub.3gppnetwork.org</string>
@@ -32,5 +33,9 @@
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
         <boolean name="vowifi_mms_switch" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="vowifi_roaming_switch" value="true"/>
+        <!-- Volte UI -->
+        <string name="carrier_volte_hd_icon_flag">10101010</string>
     </carrier_config>
 </carrier_config_list>

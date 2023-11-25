@@ -22,11 +22,11 @@
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
-        <string name="wfc_spn_string">CMHK</string>
-        <string name="wfc_format_wifi_string">%1$s Wi-Fi calls</string>
+        <string name="wfc_format_wifi_string">%1$s</string>
         <int name="Ikev2NatRtcTimerMaxCnt" value="200" />
         <int name="Ikev2NatRtcTimerSec" value="60" />
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
+        <string name="carrier_networkmode_gstyle">true</string>
     </carrier_config>
 </carrier_config_list>

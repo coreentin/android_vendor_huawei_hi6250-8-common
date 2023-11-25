@@ -5,9 +5,10 @@
         <!--UT TA-->
         <int name="utUseApn" value="3"/>
         <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <int name="setDefaultNoReplyTimer" value="-1"/>
         <int name="callWaitingMode" value="11"/>
         <int name="utBsfPort" value="80"/>
-        <string name="utParamsCfg">0:1,1:1,2:1,3:1</string>
+        <string name="utParamsCfg">0:1,1:1,2:1,3:1,15:1,17:1</string>
         <int name="utOIRSourceMode" value="1"/>
         <!--VOLTE TA-->
         <!-- Volte UI -->
@@ -31,7 +32,7 @@
         <boolean name="wfc_is_show_emergency_only" value="true"/>
         <boolean name="wfc_is_show_air_plane" value="true"/>
         <string name="carrier_vowifi_hd_icon_flag">00100000</string>
-        <string name="carrier_vowifi_tips_title">Vodafone WiFi Calling enabled</string>
+        <string name="carrier_vowifi_tips_title">Vodafone WiFi Calling</string>
         <string name="carrier_vowifi_tips_flag">0100</string>
     </carrier_config>
 </carrier_config_list>

@@ -6,135 +6,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/huawei/hi6250-8-common
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/system_teecd:$(TARGET_COPY_OUT_VENDOR)/bin/system_teecd \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libtuidaemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuidaemon.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libtuidaemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtuidaemon.so \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/flash.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/flash.txt \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/imx386e3/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx386e3/algo.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/imx386e3/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx386e3/info.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/imx486/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx486/algo.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/imx486/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx486/info.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/ov12870e3/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov12870e3/algo.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/ov12870e3/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov12870e3/info.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/ov12a10/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov12a10/algo.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/bshutter/ov12a10/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov12a10/info.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx386e3/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx386e3/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx386e3/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx386e3/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx386e3/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx386e3/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx386e3/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx386e3/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx486/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx486/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx486/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx486/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx486/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx486/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/imx486/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx486/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12870e3/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12870e3/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12870e3/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12870e3/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12870e3/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12870e3/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12870e3/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12870e3/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12a10/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12a10/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12a10/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12a10/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12a10/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12a10/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/digitalzoom/ov12a10/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov12a10/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/hi843/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi843/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/hi843/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi843/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/hi843/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi843/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx219/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx219/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx219/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx219/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx219/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx219/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx386e3/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx386e3/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx386e3/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx386e3/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx386e3/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx386e3/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx486/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx486/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx486/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx486/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/imx486/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/imx486/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov12870e3/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov12870e3/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov12870e3/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov12870e3/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov12870e3/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov12870e3/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov12a10/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov12a10/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov12a10/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov12a10/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov12a10/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov12a10/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov8856/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov8856/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov8856/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov8856/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/configeffect/multidenoise/ov8856/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/ov8856/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/hi843/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi843/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/hi843/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi843/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/hi843/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi843/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx219/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx219/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx219/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx219/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx219/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx219/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx386e3/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386e3/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx386e3/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386e3/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx386e3/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386e3/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx386e3/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386e3/nicefood/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx486/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx486/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx486/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx486/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx486/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx486/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/imx486/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx486/nicefood/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/kernel/davinciclkernel_32.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/kernel/davinciclkernel_32.bin \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/kernel/davinciclkernel_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/kernel/davinciclkernel_64.bin \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12870e3/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12870e3/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12870e3/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12870e3/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12870e3/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12870e3/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12870e3/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12870e3/nicefood/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12a10/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12a10/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12a10/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12a10/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12a10/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12a10/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov12a10/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov12a10/nicefood/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov8856/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov8856/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov8856/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov8856/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/davinci/ov8856/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov8856/multiframe.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/dcvalidation.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/dcvalidation.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/facebeauty/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/facebeauty/config.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/facedetection/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/facedetection/config.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/default/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/default/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/hi843/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/hi843/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/imx219/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx219/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/imx386e3/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx386e3/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/imx486/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx486/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/ov12870e3/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov12870e3/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/ov12a10/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov12a10/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwbeauty/ov8856/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/ov8856/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwldc/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwldc/hi843/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/hi843/hwldc_config.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwldc/imx219/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/imx219/hwldc_config.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwldc/ov8856/hwldc_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwldc/ov8856/hwldc_config.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/hi843/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/hi843/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/hi843/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/hi843/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/imx219/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx219/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/imx219/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx219/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/imx386e3/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx386e3/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/imx386e3/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx386e3/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/imx486/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx486/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/imx486/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/imx486/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/ov12870e3/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov12870e3/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/ov12870e3/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov12870e3/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/ov12a10/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov12a10/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/ov12a10/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov12a10/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/ov8856/hwsz.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov8856/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/hwscope/ov8856/kernel:$(TARGET_COPY_OUT_ODM)/etc/camera/hwscope/ov8856/kernel \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/ippalgoconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ippalgoconfig.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/ispenhnc/ispenhncalgoconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ispenhnc/ispenhncalgoconfig.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/mempoolcfg.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mempoolcfg.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/mmi/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi/config.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/hi843/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/hi843/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/imx219/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/imx219/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/imx386e3/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/imx386e3/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/imx486/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/imx486/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/multidenoise.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/multidenoise.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/ov12870e3/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/ov12870e3/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/ov12a10/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/ov12a10/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/multidenoise/ov8856/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/ov8856/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/nicefood/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/device.config \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/nicefood/imx386e3/niceFood.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/imx386e3/niceFood.dat \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/nicefood/imx486/niceFood.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/imx486/niceFood.dat \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/nicefood/ov12870e3/niceFood.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/ov12870e3/niceFood.dat \
-    vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/nicefood/ov12a10/niceFood.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/ov12a10/niceFood.dat \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/pdafvalidation.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/pdafvalidation.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/ppconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/ppconfig.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/camera/smartae/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/device.config \
@@ -158,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/AIRTEL_BD.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/AIRTEL_BD.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/AIRTEL_IN.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/AIRTEL_IN.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/AIS_TH.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/AIS_TH.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ALGAR_BR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ALGAR_BR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ALTAN_MX.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ALTAN_MX.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ALTEL_KZ_EXT1.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ALTEL_KZ_EXT1.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ALTEL_KZ_EXT2.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ALTEL_KZ_EXT2.ato \
@@ -182,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CELLC_ZA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CELLC_ZA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CELL_TR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CELL_TR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CLARO_AR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CLARO_AR.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CLARO_BR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CLARO_BR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CLARO_CL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CLARO_CL.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CLARO_CO.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CLARO_CO.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CLARO_EC.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CLARO_EC.ato \
@@ -191,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CMCC_CN_IOT.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CMCC_CN_IOT.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CMCC_HK.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CMCC_HK.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CONFIG.bin:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CONFIG.bin \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CORREIOS_BR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CORREIOS_BR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CRICKET_USA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CRICKET_USA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CTM_MO.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CTM_MO.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/CT_TW.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/CT_TW.ato \
@@ -211,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_GR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_GR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_HR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_HR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_HU.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_HU.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_ME.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_ME.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_MK.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_MK.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_NL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_NL.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/DT_PL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/DT_PL.ato \
@@ -257,6 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/IMS_TEST.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/IMS_TEST.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/INWI_MA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/INWI_MA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/KDDI_JP.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/KDDI_JP.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/KDDI_JPNoVOLTE.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/KDDI_JPNoVOLTE.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/KPN_NL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/KPN_NL.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/KT_KR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/KT_KR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/LGU_KR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/LGU_KR.ato \
@@ -267,8 +149,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MAXIS_MY.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MAXIS_MY.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MCI_IR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MCI_IR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MEGAFON_RU.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MEGAFON_RU.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MEO_PT.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MEO_PT.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/METEOR_IE.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/METEOR_IE.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOBILIS_DZ.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOBILIS_DZ.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOBILY_SA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOBILY_SA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOBITEL_LK.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOBITEL_LK.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOI_QA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOI_QA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOVISTAR_AR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOVISTAR_AR.ato \
@@ -279,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOVISTAR_PA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOVISTAR_PA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOVISTAR_PE.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOVISTAR_PE.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MOVISTAR_UY.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MOVISTAR_UY.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MPT_MM.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MPT_MM.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MTC_NA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MTC_NA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MTN_CI.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MTN_CI.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MTN_CY.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MTN_CY.ato \
@@ -288,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MTS_RU.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MTS_RU.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/MYTEL_MM.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/MYTEL_MM.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/NEMONT_USA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/NEMONT_USA.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/NEXTEL_BR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/NEXTEL_BR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/NOS_PT.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/NOS_PT.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/NOVA_IS.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/NOVA_IS.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/NTEL_NG.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/NTEL_NG.ato \
@@ -295,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/O2_DE.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/O2_DE.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/O2_GB.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/O2_GB.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/O2_SK.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/O2_SK.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/OI_BR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/OI_BR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/OMANTEL_OM.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/OMANTEL_OM.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/OMNITEL_LT.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/OMNITEL_LT.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/OOREDOO_KW.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/OOREDOO_KW.ato \
@@ -310,6 +197,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/PINE_USA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/PINE_USA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/PLAY_PL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/PLAY_PL.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/PLUS_PL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/PLUS_PL.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/PORTOCONECTA_BR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/PORTOCONECTA_BR.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/PRO_BE.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/PRO_BE.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/RCOM_IN.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/RCOM_IN.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/RCSRDS_RO.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/RCSRDS_RO.ato \
@@ -324,11 +212,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SIERRATEL_SL.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SIERRATEL_SL.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SINGTEL_SG.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SINGTEL_SG.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SKT_KR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SKT_KR.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SKY_GB.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SKY_GB.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SMARTFREN_ID.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SMARTFREN_ID.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SMART_KH.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SMART_KH.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SMART_PH.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SMART_PH.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SM_SZ.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SM_SZ.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SOFTBANK_JP.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SOFTBANK_JP.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/SPARK_NZ.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/SPARK_NZ.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/STARHUB_SG.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/STARHUB_SG.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/STC_SA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/STC_SA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ST_HK.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ST_HK.ato \
@@ -390,6 +280,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_CZ.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_CZ.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_DE.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_DE.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_DE_LAB.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_DE_LAB.ato \
+    vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_EG.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_EG.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_ES.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_ES.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_GB.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_GB.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/VDF_GR.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/VDF_GR.ato \
@@ -426,8 +317,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ZAIN_KW.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ZAIN_KW.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ZAIN_SA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ZAIN_SA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/feature_index.xml:$(TARGET_COPY_OUT_ODM)/etc/ncfg/feature_index.xml \
-    vendor/huawei/hi6250-8-common/proprietary/odm/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib/libarcsoft_beautyshot.so \
     vendor/huawei/hi6250-8-common/proprietary/odm/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_beautyshot.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libHME-Video.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libHME-Video.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libVT80.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libVT80.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libcryptotsc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libcryptotsc.so \
@@ -443,6 +336,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libut.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libut.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libvsc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libvsc.so \
     vendor/huawei/hi6250-8-common/proprietary/system/bin/emcomd:$(TARGET_COPY_OUT_SYSTEM)/bin/emcomd \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/system_teecd:$(TARGET_COPY_OUT_VENDOR)/bin/system_teecd \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_00101.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_00101.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20201.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20201.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20205.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20205.xml \
@@ -452,6 +346,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20402.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20402.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20404.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20404.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20408.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20408.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20412.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20412.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20416.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20416.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20420.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20420.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20469.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20469.xml \
@@ -492,6 +387,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_21910.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_21910.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22001.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22004.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22004.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22005.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22005.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22201.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22201.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22210.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22210.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22288.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22288.xml \
@@ -501,6 +397,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22605.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22605.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22606.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22606.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22610.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22610.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22615.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22615.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22801.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22801.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22802.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22802.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_22803.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_22803.xml \
@@ -521,9 +418,22 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23408.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23408.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23410.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23410.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23415.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23415.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23419.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23419.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23420.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23420.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23428.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23428.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23430.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23430.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23431.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23431.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23432.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23432.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23433.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23433.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23434.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23434.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23438.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23438.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23439.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23439.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23450.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23450.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23455.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23455.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23457.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23457.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23458.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23458.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23476.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23476.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23486.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23486.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23494.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23494.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23594.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23594.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_23801.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_23801.xml \
@@ -536,9 +446,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24008.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24008.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24201.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24201.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24202.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24202.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24208.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24208.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24214.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24214.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24405.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24405.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24412.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24412.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24413.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24413.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24491.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24491.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24601.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24601.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24701.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24701.xml \
@@ -548,9 +460,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_24802.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_24802.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25001.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25002.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25002.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25020.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25020.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25050.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25050.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25099.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25099.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25701.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25701.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25704.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25704.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_25901.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_25901.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26001.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26002.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26002.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26003.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26003.xml \
@@ -566,6 +481,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26801.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26801.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26803.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26803.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26806.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26806.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_26889.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_26889.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_27099.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_27099.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_27201.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_27201.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_27203.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_27203.xml \
@@ -645,12 +561,18 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_33405.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_33405.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_334050.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_334050.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_334090.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_334090.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_334140.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_334140.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_33420.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_33420.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_33450.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_33450.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_33490.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_33490.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_34001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_34001.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_37001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_37001.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40107.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40107.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40177.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40177.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40401.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40401.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40402.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40402.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40403.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40403.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_404030.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_404030.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40404.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40404.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40405.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40405.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40407.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40407.xml \
@@ -676,8 +598,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40449.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40449.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40456.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40456.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40460.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40460.xml \
-    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40466.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40466.xml \
-    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40467.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40467.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40470.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40470.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40478.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40478.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40482.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40482.xml \
@@ -700,6 +620,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40554.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40554.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40555.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40555.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40556.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40556.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40566.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40566.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40567.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40567.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_40570.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_40570.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_405750.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_405750.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_405751.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_405751.xml \
@@ -738,6 +660,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_405872.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_405872.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_405873.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_405873.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_405874.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_405874.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_41301.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_41301.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_41302.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_41302.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_41401.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_41401.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_41403.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_41403.xml \
@@ -752,6 +675,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_41903.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_41903.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_41904.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_41904.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_42001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_42001.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_42003.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_42003.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_42004.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_42004.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_42202.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_42202.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_42402.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_42402.xml \
@@ -770,14 +694,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_42889.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_42889.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_43211.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_43211.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_43235.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_43235.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_44010.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_44010.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_44020.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_44020.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_44051.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_44051.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45005.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45005.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45006.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45006.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45008.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45008.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45400.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45400.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45402.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45402.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45403.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45403.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45404.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45404.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45405.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45405.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45406.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45406.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45407.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45407.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45410.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45410.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45412.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45412.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45413.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45413.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45414.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45414.xml \
@@ -786,10 +716,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45417.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45417.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45418.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45418.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45419.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45419.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45424.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45424.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45429.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45429.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45431.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45431.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45501.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45501.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45504.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45504.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45606.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45606.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45611.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45611.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_45701.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_45701.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_46000.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_46000.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_46002.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_46002.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_46003.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_46003.xml \
@@ -807,6 +741,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_46689.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_46689.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_46692.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_46692.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_46697.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_46697.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_47001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_47001.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_47002.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_47002.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_47202.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_47202.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_50210.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_50210.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_50213.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_50213.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_502152.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_502152.xml \
@@ -819,6 +756,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_50503.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_50503.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_50506.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_50506.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_50514.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_50514.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_51009.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_51009.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_51028.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_51028.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_51502.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_51502.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_51503.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_51503.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_52000.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_52000.xml \
@@ -829,14 +768,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_52503.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_52503.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_52505.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_52505.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_52510.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_52510.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_53001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_53001.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_53005.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_53005.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_53024.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_53024.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_60203.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_60203.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_60204.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_60204.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_60301.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_60301.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_60402.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_60402.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_61906.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_61906.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_62001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_62001.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_62140.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_62140.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_63102.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_63102.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_63902.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_63902.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_64505.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_64505.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_64901.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_64901.xml \
@@ -864,18 +806,41 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_71404.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_71404.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_71606.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_71606.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_71610.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_71610.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_71615.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_71615.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_71617.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_71617.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72207.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72207.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_722310.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_722310.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72234.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72234.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72402.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72402.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72403.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72403.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72404.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72404.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72405.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72405.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72406.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72406.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72410.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72410.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72411.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72411.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72415.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72415.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72416.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72416.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72417.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72417.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72423.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72423.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72424.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72424.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72431.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72431.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72432.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72432.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72433.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72433.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72434.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72434.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72439.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72439.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_72454.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_72454.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73001.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73001.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73002.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73002.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73003.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73003.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73004.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73004.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73009.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73009.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73010.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73010.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_732101.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_732101.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_732103.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_732103.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_732111.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_732111.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_732123.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_732123.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73602.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73602.xml \
+    vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_73603.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_73603.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_74000.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_74000.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_74405.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_74405.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_74807.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_74807.xml \
@@ -888,14 +853,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/noncell/device_guide.json:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/noncell/device_guide.json \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/noncell/version.txt:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/noncell/version.txt \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/ons/ons.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ons/ons.bin \
-    vendor/huawei/hi6250-8-common/proprietary/system/lib/libiawareperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libiawareperf_client.so \
-    vendor/huawei/hi6250-8-common/proprietary/system/lib/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.huawei.hardware.iawareperf@1.0.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libtuidaemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuidaemon.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc_secshared.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libemcomutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libemcomutil.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libhuaweicust.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhuaweicust.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libiawareperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libiawareperf_client.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libsmartcare.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsmartcare.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libsmartcareSDK.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsmartcareSDK.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libtuidaemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtuidaemon.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libxengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxengine.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.huawei.hardware.iawareperf@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec:$(TARGET_COPY_OUT_VENDOR)/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec \
@@ -909,6 +874,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/aptouch_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/aptouch_daemon \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec:$(TARGET_COPY_OUT_VENDOR)/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/c30917f8-d869-4379-8f46-4ac62be198dd.sec:$(TARGET_COPY_OUT_VENDOR)/bin/c30917f8-d869-4379-8f46-4ac62be198dd.sec \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/cdfinger_fps1256s_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/cdfinger_fps1256s_ta.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/e2983b4f-1683-4445-9eec-1f7318757792.sec:$(TARGET_COPY_OUT_VENDOR)/bin/e2983b4f-1683-4445-9eec-1f7318757792.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/e8014913-e501-4d44-a9d6-058ec3b93b90.sec:$(TARGET_COPY_OUT_VENDOR)/bin/e8014913-e501-4d44-a9d6-058ec3b93b90.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec:$(TARGET_COPY_OUT_VENDOR)/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec \
@@ -938,6 +904,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/gnss_supl20clientd_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/gnss_supl20clientd_hisi \
     vendor/huawei/hi6250-8-common/proprietary/vendor/xbin/gnss_watchlssd_thirdparty:$(TARGET_COPY_OUT_VENDOR)/xbin/gnss_watchlssd_thirdparty \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_3206_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3206_ta.sec \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_3258_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3258_ta.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_3266_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3266_ta.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_3288_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3288_ta.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_3288_ta_pra.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3288_ta_pra.sec \
@@ -945,9 +912,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_5296_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_5296_ta.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_5296_ta_handel.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_5296_ta_handel.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/goodix_8206_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_8206_ta.sec \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/gpsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/gpsdaemon \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hivwserver:$(TARGET_COPY_OUT_VENDOR)/bin/hivwserver \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0-service \
@@ -962,22 +927,17 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.hwdisplay@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.hwdisplay@1.0-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.hwfactoryinterface@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.hwfactoryinterface@1.1-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.hwfs@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.hwfs@1.0-service \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.hwvibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.hwvibrator@1.0-service \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.light@2.0-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.otherdevices@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.otherdevices@1.0-service \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.perfgenius@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.perfgenius@1.0-service \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.power@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.power@1.0-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.sensors@1.0-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.tp@1.0-service \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hwemerffu:$(TARGET_COPY_OUT_VENDOR)/bin/hwemerffu \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/iked:$(TARGET_COPY_OUT_VENDOR)/bin/iked \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/isplogcat:$(TARGET_COPY_OUT_VENDOR)/bin/isplogcat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/mac_addr_normalization:$(TARGET_COPY_OUT_VENDOR)/bin/mac_addr_normalization \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/modemlogcat_lte:$(TARGET_COPY_OUT_VENDOR)/bin/modemlogcat_lte \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/oam_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/oam_hisi \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/octty:$(TARGET_COPY_OUT_VENDOR)/bin/octty \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/oeminfo_gamma:$(TARGET_COPY_OUT_VENDOR)/bin/oeminfo_gamma \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/oeminfo_nvm_server:$(TARGET_COPY_OUT_VENDOR)/bin/oeminfo_nvm_server \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/pki_provision_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/pki_provision_ta.sec \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/secure_storage:$(TARGET_COPY_OUT_VENDOR)/bin/secure_storage \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/silead_6165_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/silead_6165_ta.sec \
@@ -1000,81 +960,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/DroidSansFallbackTui.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/DroidSansFallbackTui.ttf \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/blkcg_init.sh:$(TARGET_COPY_OUT_VENDOR)/etc/blkcg_init.sh \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/bluetooth/bt_vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_vendor.conf \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/bshutter/default/algo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bshutter/default/algo.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/bshutter/default/info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bshutter/default/info.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/default/gcd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/default/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/default/rawnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/default/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/default/sharpen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/default/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/default/yuvnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/default/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/digitalzoom/default/gcd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/digitalzoom/default/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/digitalzoom/default/rawnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/digitalzoom/default/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/digitalzoom/default/sharpen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/digitalzoom/default/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/digitalzoom/default/yuvnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/digitalzoom/default/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/multidenoise/default/rawnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/multidenoise/default/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/multidenoise/default/rawnf_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/multidenoise/default/rawnf_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/multidenoise/default/sharpen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/multidenoise/default/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/multidenoise/default/sharpen_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/multidenoise/default/sharpen_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/multidenoise/default/yuvnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/multidenoise/default/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/multidenoise/default/yuvnf_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/multidenoise/default/yuvnf_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/gcd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/gcd.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/gcd_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/gcd_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/rawnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/rawnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/rawnf_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/rawnf_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/sharpen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/sharpen.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/sharpen_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/sharpen_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/yuvnf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/yuvnf.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/configeffect/opticalzoom/default/yuvnf_aux.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/configeffect/opticalzoom/default/yuvnf_aux.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/cm_correction.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_correction.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/cm_foliage.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_foliage.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/cm_normal.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_normal.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/cm_sky.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_sky.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/cm_sunset.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/cm_sunset.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/hdr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/hdr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/imgproc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/multiframe.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/davinci/default/nicefood/imgproc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/davinci/default/nicefood/imgproc.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/dcsr/dcsr.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dcsr/dcsr.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/dcsr/dcsr_kernel:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dcsr/dcsr_kernel \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/dcsr/sr.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/dcsr/sr.bin \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/filter/filter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/filter.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/filter/mixIm.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/filter/mixIm.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/hwbeauty/default/hwbeauty_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hwbeauty/default/hwbeauty_params.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/hwscope/default/hwsz.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hwscope/default/hwsz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/hwscope/default/kernel:$(TARGET_COPY_OUT_VENDOR)/etc/camera/hwscope/default/kernel \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/libcl/opticalzoom_source.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/libcl/opticalzoom_source.bin \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/mmi7cm/default/mmi7cmConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mmi7cm/default/mmi7cmConfig.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/multidenoise/default/multiframe.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/multidenoise/default/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/multidenoise/multidenoise.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/multidenoise/multidenoise.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/nicefood/default/niceFood.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/nicefood/default/niceFood.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/hwnie.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwnie.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/hwnie_co.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwnie_co.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/hwnie_star.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwnie_star.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/hwoz.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwoz.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/hwoz_kernel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwoz_kernel.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/hwoz_kernel_6x.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/hwoz_kernel_6x.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/multiframe.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/multiframe.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/oz_ref_match.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/oz_ref_match.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/oz_ref_match_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/oz_ref_match_1.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/oz_ref_match_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/oz_ref_match_2.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/sr.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_0.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut_0.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_1.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut_1.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/opticalzoom/default/sr_lanczos_lut_2.dat \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/smartae/default/SmartAE.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/smartae/default/SmartAE.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/FoliageMinMaxTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/FoliageMinMaxTOA.txt \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/FoliageModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/FoliageModelTOA.model \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/IndoorFeatureFilterTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/IndoorFeatureFilterTOA.txt \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/IndoorModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/IndoorModelTOA.model \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/NightMinMaxTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/NightMinMaxTOA.txt \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/NightModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/NightModelTOA.model \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/SunsetMinMaxTOA.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/SunsetMinMaxTOA.txt \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/SunsetModelTOA.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/SunsetModelTOA.model \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tornado/default/TornadoI.ini:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tornado/default/TornadoI.ini \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/tracking/targettracking.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tracking/targettracking.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/watermark/dm.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/dm.argb \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/watermark/dm.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/dm.png \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/camera/watermark/param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/param.xml \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/border/20201/20201_0:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/border/20201/20201_0 \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/border/20202/20202_0:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/border/20202/20202_0 \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/border/20205/20205_0:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/border/20205/20205_0 \
@@ -2068,6 +1953,19 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/mcc/734/734_0:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/mcc/734/734_0 \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/mcc/748/748_0:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/mcc/748/748_0 \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/version.txt:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/version.txt \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_al10_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_al10_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_al20_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_al20_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_al30_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_al30_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_al40_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_al40_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_dl00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_dl00_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_l21_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_l21_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_l21l_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_l21l_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_l22_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_l22_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_l23l_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_l23l_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_l24_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_l24_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_tl00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_tl00_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_tl00a_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_tl00a_hisi.ini \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_berlin_tl10_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_berlin_tl10_hisi.ini \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_prague_al00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_prague_al00_hisi.ini \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_prague_l21_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_prague_l21_hisi.ini \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cfg_prague_l22_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_prague_l22_hisi.ini \
@@ -2102,7 +2000,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/rmd/g/aindex.bin:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/g/aindex.bin \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/rmd/t/a_1:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/t/a_1 \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/rmd/t/aindex.bin:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/t/aindex.bin \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_caict_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_caict_hisi.bks \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_claro_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_claro_hisi.bks \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_entel_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_entel_hisi.bks \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_huawei_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_huawei_hisi.bks \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_iusacell_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_iusacell_hisi.bks \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_kddi_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_kddi_hisi.bks \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/gnss/security/gnss_vodafone_hisi.bks:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/security/gnss_vodafone_hisi.bks \
@@ -2114,7 +2015,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/ikedconfig/tunnel_ike_natt.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ikedconfig/tunnel_ike_natt.conf \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/ikedconfig/vals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ikedconfig/vals.conf \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/activity_recognition_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/activity_recognition_service.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/aptouch_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aptouch_daemon.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.graphics.displayeffect@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.graphics.displayeffect@1.0-service.rc \
@@ -2130,12 +2030,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.hwdisplay@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.hwdisplay@1.0-service.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.hwfactoryinterface@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.hwfactoryinterface@1.1-service.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.hwfs@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.hwfs@1.0-service.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.hwvibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.hwvibrator@1.0-service.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.iawareperf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.iawareperf@1.0-service.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.light@2.0-service.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.otherdevices@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.otherdevices@1.0-service.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.perfgenius@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.perfgenius@1.0-service.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.power@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.power@1.0-service.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/vendor.huawei.hardware.tp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.tp@1.0-service.rc \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/modemConfig/VIA/basic_name:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/VIA/basic_name \
@@ -2146,9 +2041,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/modemConfig/viacbp82d_log.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/viacbp82d_log.bcfg \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg:$(TARGET_COPY_OUT_VENDOR)/etc/modemConfig/viacbp82d_shutdown_log.bcfg \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/native_packages.bin:$(TARGET_COPY_OUT_VENDOR)/etc/native_packages.bin \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/perfgenius_boost_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_boost_policy.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/perfgenius_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_config.xml \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/pwrlog.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/pwrlog.cfg \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/topazhp.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/topazhp.cfg \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/tp_test_parameters/prague_eely_input_format.csv:$(TARGET_COPY_OUT_VENDOR)/etc/tp_test_parameters/prague_eely_input_format.csv \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/tp_test_parameters/prague_ofilm_input_format.csv:$(TARGET_COPY_OUT_VENDOR)/etc/tp_test_parameters/prague_ofilm_input_format.csv \
@@ -2173,7 +2065,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/hifi_6402_2spk.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_2spk.img \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/hifi_6402_2wake.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_2wake.img \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/hifi_6402_tas2smartpa.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas2smartpa.img \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/hifi_6402_tas2smartpa_no_wakeup_aec.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas2smartpa_no_wakeup_aec.img \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/hifi_6402_tas4smartpa.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas4smartpa.img \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/hifi_6402_tas4smartpa_no_wakeup_aec.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hifi_6402_tas4smartpa_no_wakeup_aec.img \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/isp_bw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_bw.elf \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/isp_dts.img:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_dts.img \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/isp_fw.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/isp_fw.elf \
@@ -2184,42 +2078,25 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/displayeffect.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/displayeffect.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/audio.primary_hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary_hisi.hi6250.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/camera.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/facerecognize.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/facerecognize.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fm.bcm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.bcm.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.hisi.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/gatekeeper.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/hicam.hal.bz.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hicam.hal.bz.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/hicam.hal.service.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hicam.hal.service.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/hw_touchscreen.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hw_touchscreen.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.hi6250.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/libhwdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libhwdisplay.default.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mediacomm.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/power.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/sensors.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.default.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/vendor.huawei.hardware.perfgenius@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.huawei.hardware.perfgenius@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hwcam/hwcam.ddt.so:$(TARGET_COPY_OUT_VENDOR)/lib/hwcam/hwcam.ddt.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hwcam/hwcam.services.so:$(TARGET_COPY_OUT_VENDOR)/lib/hwcam/hwcam.services.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libAntiTheftCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAntiTheftCA.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libBestShot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBestShot.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libBootloaderOeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBootloaderOeminfo.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libDocBeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDocBeauty.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libFaceBeautyMeiwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceBeautyMeiwo.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libFaceBeautyMeiwoJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceBeautyMeiwoJNI.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libFaceDetectCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceDetectCA.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libHWCamCfgSvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHWCamCfgSvr.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libHW_BShutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHW_BShutter.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libOmronFR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmronFR.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libOpenCLFoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCLFoundation.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libRefocusContrastPosition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRefocusContrastPosition.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libSR_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSR_opencl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libSmartAE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSmartAE.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libVideoDenoise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVideoDenoise.so \
@@ -2228,10 +2105,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/lib_mmi_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mmi_interface.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/lib_sensor_fac_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_sensor_fac_interface.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/lib_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_vibrator.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/lib_wifi_sar.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_wifi_sar.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libaehc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaehc.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libalConvert2Img_al6045.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalConvert2Img_al6045.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libasd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasd.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libaudio_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_custom.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libbalong-ril-1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbalong-ril-1.so \
@@ -2239,67 +2113,34 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libbalong-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbalong-ril.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libc_sec_hisi_connectivity.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_sec_hisi_connectivity.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libc_secshared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_secshared.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libcamera_ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_ae.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libcamera_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_flash.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libcamera_omron.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_omron.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libcamerabuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerabuffer.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libchrlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchrlog.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libconn_factory_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconn_factory_test.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libcontrastCal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcontrastCal.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libdcamera_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdcamera_sr.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libemmc_info.so:$(TARGET_COPY_OUT_VENDOR)/lib/libemmc_info.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libemmcscreen_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libemmcscreen_test.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libface_recognize_manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libface_recognize_manager.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libfacedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfacedetection.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libfcamera_visual_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfcamera_visual_effect.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libfm_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfm_interface.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libfm_volume.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfm_volume.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libgnss_lss_gw_thirdparty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnss_lss_gw_thirdparty.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libgps_factory_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps_factory_test.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libgralloc_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_ext.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhdr_acore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_acore.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhiion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhiion.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhilog.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhisi_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhisi_wrapper.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhivwservice.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhuaweiaudioeffectutil.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhuaweicust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhuaweicust.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhw_display_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhw_display_effect.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhw_display_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhw_display_factory.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhw_display_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhw_display_test.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwlog.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libiawareperf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiawareperf_client.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libiawareperf_server.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiawareperf_server.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libimedia_filters.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimedia_filters.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimonitor.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libispenhnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispenhnc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libjpeghdrenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeghdrenc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libjtag_wdt_ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjtag_wdt_ctrl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmax98925.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmax98925.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmediacomm@2.0-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediacomm@2.0-client.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmorpho_effect_library5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_effect_library5.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmotiondetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotiondetect.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_filters.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_filters.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_ldc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_ldc.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_mfdenoise.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_mfdenoise.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_mfnr_ap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_mfnr_ap.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_niceFood.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_niceFood.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_postprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_postprocess.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_postprocess_cl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_postprocess_cl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmrc_cg_sz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrc_cg_sz.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libnvme.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvme.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/liboeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboeminfo.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libomx_vxd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vxd.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libomx_vxe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vxe.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libperfgenius_vendor_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgenius_vendor_client.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libperfhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfhub.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libperfhub_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfhub_service.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_customize_hisi.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libpf_oneimage_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_oneimage_hisi.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_rotate_hisi.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libpowerlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerlog.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscenedetection.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libsmartpakit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmartpakit.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libstorekeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorekeybox.so \
@@ -2307,29 +2148,21 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa9895.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libthpinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthpinterface.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libtrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrack.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libtrustzone_key_manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustzone_key_manager.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libufs_info.so:$(TARGET_COPY_OUT_VENDOR)/lib/libufs_info.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libvio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvio.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libxmodemgpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxmodemgpsrpc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhuaweiprocessing.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liboffloadvisualizer.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.activity_recognition@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.activity_recognition@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.camera.camResource@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.camera.camResource@1.1.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.camera.factory@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.camera.factory@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.fm@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.gnss@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.graphics.gpucommon@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.graphics.gpucommon@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hisupl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hisupl@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hivrar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hivrar@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.huaweiantitheft@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.huaweiantitheft@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.huaweisigntool@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.huaweisigntool@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so \
@@ -2337,16 +2170,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hwfs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwfs@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.hwvibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwvibrator@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.iawareperf@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.iked@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.iked@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.jpegdec@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.jpegdec@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.libteec@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.libteec@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.light@2.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.modemlogcat@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.modemlogcat@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.otherdevices@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.otherdevices@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.perfgenius@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.perfgenius@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.power@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio@1.1.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/vendor.huawei.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.sensors@1.0.so \
@@ -2372,10 +2201,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/libhwdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libhwdisplay.default.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mediacomm.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/power.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/sensors.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.activity_recognition@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.activity_recognition@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so \
@@ -2389,13 +2216,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwdisplay@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwdisplay@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwfs@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwfs@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.hwvibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.hwvibrator@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.libteec@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.libteec@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.otherdevices@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.otherdevices@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.perfgenius@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.perfgenius@1.0-impl.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.power@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hwcam/hwcam.ddt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hwcam/hwcam.ddt.so \
@@ -2420,7 +2242,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/lib_mmi_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_mmi_interface.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/lib_sensor_fac_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sensor_fac_interface.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/lib_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_vibrator.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/lib_wifi_sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_wifi_sar.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libaehc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaehc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libaftouch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaftouch.so \
@@ -2463,17 +2284,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhdr_acore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_acore.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhiion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhiion.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhilog.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhisi_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhisi_wrapper.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhivwservice.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweiaudioeffectutil.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhuaweicust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweicust.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhw_display_effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhw_display_effect.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhw_display_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhw_display_factory.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhw_display_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhw_display_test.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhwgpschannelclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwgpschannelclient.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwlog.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libiawareperf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperf_client.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libiawareperf_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperf_server.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libimedia_filters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimedia_filters.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimonitor.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libispenhnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispenhnc.so \
@@ -2496,12 +2314,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libomx_vxd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_vxd.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libomx_vxe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_vxe.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libperfgenius_vendor_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgenius_vendor_client.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libperfhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfhub.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libperfhub_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfhub_service.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_customize_hisi.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libpf_oneimage_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_oneimage_hisi.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_rotate_hisi.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libpowerlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerlog.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libscenedetection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscenedetection.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libsmartpakit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmartpakit.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
@@ -2513,7 +2328,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libtrustzone_key_manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustzone_key_manager.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libufs_info.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libufs_info.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libvio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvio.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libxmodemgpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxmodemgpsrpc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so \
@@ -2531,7 +2345,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hisupl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hisupl@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hivrar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hivrar@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.huaweiantitheft@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.huaweiantitheft@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.huaweisigntool@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.huaweisigntool@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so \
@@ -2539,31 +2352,23 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwfs@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwfs@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwvibrator@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.iawareperf@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.iked@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.iked@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.jpegdec@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.jpegdec@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.libteec@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.libteec@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.light@2.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.modemlogcat@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.modemlogcat@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.otherdevices@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.otherdevices@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.perfgenius@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.perfgenius@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.power@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio@1.1.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.sensors@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.teecdaemon@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.teecdaemon@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/vendor.huawei.hardware.tp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.tp@1.0.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/oeminfo_nvm_server:$(TARGET_COPY_OUT_VENDOR)/bin/oeminfo_nvm_server \
     vendor/huawei/hi6250-8-common/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop
-
-# add to enable hardware key  
-# vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.hi6250.so \
 
 PRODUCT_PACKAGES += \
     libril \
     HwIms \
     hwEmui \
-    hwTelephony-common
+    hwTelephony-common \
+    hwframework

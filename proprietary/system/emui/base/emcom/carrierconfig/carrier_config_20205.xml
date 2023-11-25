@@ -11,6 +11,7 @@
         <string name="ims_domain">prepro.rcse.ims.vodafone.es</string>
         <string name="hw_rcs_version">1</string>
         <string name="CONFIG_SESSION_REFRESH_METHOD">1</string>
+        <string name="RCS_PEER_NAME_ON">1</string>
         <!--RCS config end -->
         <!-- UT NO TA -->
         <int name="callWaitingMode" value="11"/>
@@ -24,18 +25,36 @@
         <string name="vowifiHplmnListItem">20205, epdg.epc.mnc005.mcc202.pub.3gppnetwork.org</string>
         <string name="Ikev2EncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
-        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_512,RCT_ALG_HMAC_SHA1</string>
+        <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA2_256,RCT_ALG_HMAC_SHA1</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
         <string name="EspEncAlg">RCT_ALG_AES256_CBC,RCT_ALG_AES128_CBC</string>
         <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
+        <int name="Ikev2PcscfIpv4Address" value="20"/>
+        <int name="Ikev2PcscfIpv6Address" value="21"/>
         <int name="Ikev2SaLifeTime" value="3600"/>
         <int name="Ikev2IkeSaRekeyTimerSec" value="3600"/>
+        <int name="IPsecSaLifeTime" value="28800"/>
+        <int name="Ikev2IPsecSaRekeyTimeSec" value="28800"/>
+        <int name="Ikev2NatRtcTimerMaxCnt" value="200"/>
+        <int name="Ikev2NatRtcTimerSec" value="60"/>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifi_UT_APN">internet.vodafone.gr</string>
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false"/>
         <int name="vowifiRoamingConfig" value="0"/>
         <boolean name="vowifiStaticUnroaming" value="true"/>
         <boolean name="vowifiStaticRoaming" value="true"/>
+        <!--AR000BVAEG swx531934 20190012 begin -->
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="false"/>
+        <string name="carrier_vowifi_hd_icon_flag">00101010</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <int name="carrier_default_wfc_ims_roaming_mode_int" value="1"/>
+        <string name="carrier_vowifi_tips_flag">0100</string>
+        <string name="carrier_vowifi_tips_title">Vodafone WiFi Calling</string>
+        <boolean name="carrier_wfc_notification_bool" value="true"/>
+        <boolean name="wfc_is_show_no_service" value="true"/>
+        <boolean name="wfc_is_show_emergency_only" value="true"/>
+        <boolean name="wfc_is_show_air_plane" value="true"/>
+        <!--AR000BVAEG swx531934 20190212 end -->
     </carrier_config>
     <carrier_config spn="null">
         <string name="huawei_rcs_enabler">true</string>

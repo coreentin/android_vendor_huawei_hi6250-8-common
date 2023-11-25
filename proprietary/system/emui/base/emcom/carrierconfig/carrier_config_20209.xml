@@ -7,6 +7,10 @@
         <string name="utXcapRootUri">mtasxdms</string>
         <string name="utBsfSrvAddr">bsf.ims.mnc009.mcc202.pub.3gppnetwork.org</string>
         <int name="utBsfPort" value="80"/>
+        <int name="utNafPort" value="8090"/>
+        <int name="utUseApn" value="1"/>
+        <string name="utParamsCfg">0:1</string>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
         <int name="utBearType" value="2"/>
     </carrier_config>
 </carrier_config_list>

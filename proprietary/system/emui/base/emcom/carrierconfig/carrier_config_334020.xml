@@ -43,5 +43,6 @@
         <!--using sms as default in group chat-->
         <boolean name="groupChatDefaultsToMMS" value="false" />
         <int name="smsToMmsTextThreshold" value="12" />
+        <boolean name="carrier_hide_clir_bool" value="true"/>
     </carrier_config>
 </carrier_config_list>
