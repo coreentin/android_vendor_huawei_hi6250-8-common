@@ -4,6 +4,10 @@
     <carrier_config>
         <!--UT TA -->
         <boolean name="utForbiddenWhenVolteSwitchOff" value="false" />
+        <int name="utUseApn" value="3"/>
+        <int name="utNafPort" value="8090"/>
+        <string name="utBsfSrvAddr">bsf.ims.mnc006.mcc716.pub.3gppnetwork.org</string>
+        <int name="utBearType" value="1"/>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
         <!-- Volte UI -->

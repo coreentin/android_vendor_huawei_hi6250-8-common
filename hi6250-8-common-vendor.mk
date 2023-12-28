@@ -336,7 +336,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libut.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libut.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libvsc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libvsc.so \
     vendor/huawei/hi6250-8-common/proprietary/system/bin/emcomd:$(TARGET_COPY_OUT_SYSTEM)/bin/emcomd \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/system_teecd:$(TARGET_COPY_OUT_VENDOR)/bin/system_teecd \
+    vendor/huawei/hi6250-8-common/proprietary/system/bin/system_teecd:$(TARGET_COPY_OUT_SYSTEM)/bin/system_teecd \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_00101.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_00101.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20201.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20201.xml \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/carrierconfig/carrier_config_20205.xml:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/carrierconfig/carrier_config_20205.xml \
@@ -853,14 +853,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/noncell/device_guide.json:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/noncell/device_guide.json \
     vendor/huawei/hi6250-8-common/proprietary/system/emui/base/emcom/noncell/version.txt:$(TARGET_COPY_OUT_SYSTEM)/emui/base/emcom/noncell/version.txt \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/ons/ons.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ons/ons.bin \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libtuidaemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtuidaemon.so \
+    vendor/huawei/hi6250-8-common/proprietary/system/lib/libtuidaemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtuidaemon.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc_secshared.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libemcomutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libemcomutil.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libhuaweicust.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhuaweicust.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libiawareperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libiawareperf_client.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libsmartcare.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsmartcare.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libsmartcareSDK.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsmartcareSDK.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libtuidaemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtuidaemon.so \
+    vendor/huawei/hi6250-8-common/proprietary/system/lib64/libtuidaemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtuidaemon.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/libxengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxengine.so \
     vendor/huawei/hi6250-8-common/proprietary/system/lib64/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.huawei.hardware.iawareperf@1.0.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec:$(TARGET_COPY_OUT_VENDOR)/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec \
@@ -957,7 +957,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/teecd:$(TARGET_COPY_OUT_VENDOR)/bin/teecd \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/tlogcat:$(TARGET_COPY_OUT_VENDOR)/bin/tlogcat \
     vendor/huawei/hi6250-8-common/proprietary/vendor/bin/tpd:$(TARGET_COPY_OUT_VENDOR)/bin/tpd \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/DroidSansFallbackTui.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/DroidSansFallbackTui.ttf \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/blkcg_init.sh:$(TARGET_COPY_OUT_VENDOR)/etc/blkcg_init.sh \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/bluetooth/bt_vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_vendor.conf \
     vendor/huawei/hi6250-8-common/proprietary/vendor/etc/cellular_cloud/border/20201/20201_0:$(TARGET_COPY_OUT_VENDOR)/etc/cellular_cloud/border/20201/20201_0 \
@@ -2077,7 +2076,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/wifi_cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_cfg \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/displayeffect.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/displayeffect.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/audio.primary_hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary_hisi.hi6250.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/facerecognize.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/facerecognize.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fm.bcm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.bcm.hi6250.so \
@@ -2185,7 +2184,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/CameraFactoryService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/CameraFactoryService.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/activity_recognition.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.default.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/audio.primary_hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary_hisi.hi6250.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/camera.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/facerecognize.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/facerecognize.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.hi6250.so \

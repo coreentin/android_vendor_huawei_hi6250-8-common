@@ -16,7 +16,7 @@
         <boolean name="vowifi_mms_switch" value="true"/>
         <boolean name="vowifi_ut_switch" value="true"/>
         <string name="vowifiHplmnListItem">71610, epdg.ims.mnc010.mcc716.pub.3gppnetwork.org</string>
-        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC</string>
+        <string name="Ikev2EncAlg">RCT_ALG_AES128_CBC,RCT_ALG_AES256_CBC</string>
         <string name="Ikev2PrfAlg">RCT_ALG_HMAC_SHA1,RCT_ALG_HMAC_SHA2_256</string>
         <string name="Ikev2HashAlg">RCT_ALG_HMAC_SHA1</string>
         <string name="Ikev2DhGroup">RCT_ALG_MODP1024</string>
@@ -24,6 +24,7 @@
         <string name="EspAuthAlg">RCT_ALG_HMAC_SHA1</string>
         <int name="Ikev2SaLifeTime" value="87000"/>
         <int name="IPsecSaLifeTime" value="87000"/>
+        <int name="Ikev2MaxRetryToSend" value="3"/>
         <int name="Ikev2IkeSaRekeyTimerSec" value="86400"/>
         <int name="Ikev2IPsecSaRekeyTimeSec" value="86400"/>
         <int name="Ikev2PcscfIpv4Address" value="16389"/>
@@ -36,6 +37,7 @@
         <boolean name="carrier_wfc_supports_cellular_preferred_bool" value="true" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="2"/>
         <int name="carrier_default_wfc_ims_mode_int" value="3"/>
+        <int name="Ikev2MacAddrSupport" value="1"/>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />

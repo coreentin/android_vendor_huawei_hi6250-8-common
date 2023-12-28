@@ -4,6 +4,10 @@
     <carrier_config>
         <!--VOLTE TA-->
         <boolean name="carrier_default_volte_switch_on_bool" value="true"/>
+        <boolean name="CFNRcChangeWithCFNL" value="false"/>
+        <string name="utNafSrvAddr">xcap.mnc017.mcc716.pub.3gppnetwork.org</string>
+        <int name="utBsfPort" value="80"/>
+        <string name="utParamsCfg">19:1</string>
         <!-- Volte UI -->
         <string name="carrier_volte_hd_icon_flag">10101010</string>
         <!--VOWIFI NO TA-->
