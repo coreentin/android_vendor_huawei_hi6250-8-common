@@ -318,8 +318,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ZAIN_SA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ZAIN_SA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/feature_index.xml:$(TARGET_COPY_OUT_ODM)/etc/ncfg/feature_index.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_beautyshot.so \
-    vendor/huawei/hi6250-9-common/proprietary/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc\
-    vendor/huawei/hi6250-9-common/proprietary/etc/native_packages.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/native_packages.bin \
+    vendor/huawei/hi6250-8-common/proprietary/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc\
+    vendor/huawei/hi6250-8-common/proprietary/etc/native_packages.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/native_packages.bin \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libHME-Video.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libHME-Video.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libVT80.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libVT80.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libcryptotsc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libcryptotsc.so \
