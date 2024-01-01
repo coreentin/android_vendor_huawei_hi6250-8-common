@@ -318,9 +318,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/ZAIN_SA.ato:$(TARGET_COPY_OUT_ODM)/etc/ncfg/ZAIN_SA.ato \
     vendor/huawei/hi6250-8-common/proprietary/odm/etc/ncfg/feature_index.xml:$(TARGET_COPY_OUT_ODM)/etc/ncfg/feature_index.xml \
     vendor/huawei/hi6250-8-common/proprietary/odm/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_beautyshot.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/huawei/hi6250-9-common/proprietary/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc\
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libHME-Video.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libHME-Video.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libVT80.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libVT80.so \
     vendor/huawei/hi6250-8-common/proprietary/system/priv-app/HwIms/lib/arm64/libcryptotsc.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/HwIms/lib/arm64/libcryptotsc.so \
@@ -2084,7 +2082,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/hw_touchscreen.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hw_touchscreen.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.hi6250.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/libhwdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libhwdisplay.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mediacomm.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
@@ -2196,7 +2193,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/hisupl.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hisupl.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/hw_touchscreen.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hw_touchscreen.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/hwcomposer.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.hi6250.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/libhwdisplay.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libhwdisplay.default.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/mediacomm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/mediacomm.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
@@ -2364,6 +2360,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop
 
 PRODUCT_PACKAGES += \
+    android.hardware.drm@1.2-service.widevine \
+    libnoveldrmengine \
+    libwvhidl \
+    liboemcrypto \
     libril \
     HwIms \
     hwEmui \
