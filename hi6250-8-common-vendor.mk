@@ -2075,6 +2075,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/firmware/wifi_cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_cfg \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/displayeffect.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/displayeffect.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary_hisi.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/facerecognize.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/facerecognize.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/hw/fm.bcm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.bcm.hi6250.so \
@@ -2180,7 +2181,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/CameraFactoryService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/CameraFactoryService.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/activity_recognition.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.default.so \
-    vendor/huawei/hi6250-8-common/proprietary/lib64/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hi6250.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary_hisi.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/camera.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/facerecognize.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/facerecognize.hi6250.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/hw/fingerprint.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.hi6250.so \
@@ -2241,7 +2242,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libaftouch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaftouch.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libalConvert2Img_al6045.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalConvert2Img_al6045.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libasd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasd.so \
-    vendor/huawei/hi6250-8-common/proprietary/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_custom.so \
+    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_custom.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libbalong-ril-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbalong-ril-1.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libbalong-ril-2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbalong-ril-2.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libbalong-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbalong-ril.so \
