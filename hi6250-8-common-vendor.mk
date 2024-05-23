@@ -2125,7 +2125,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhw_display_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhw_display_factory.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libhw_display_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhw_display_test.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libiawareperf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiawareperf_client.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimonitor.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libjpeghdrenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeghdrenc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libjtag_wdt_ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjtag_wdt_ctrl.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib/libmax98925.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmax98925.so \
@@ -2253,7 +2252,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libcamera_ivp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_ivp.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libcamera_omron.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_omron.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libcamerabuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerabuffer.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libchrlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrlog.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libcommunication_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcommunication_api.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libconn_factory_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconn_factory_test.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libcontrastCal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcontrastCal.so \
@@ -2285,10 +2283,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhw_display_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhw_display_factory.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhw_display_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhw_display_test.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhwgpschannelclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwgpschannelclient.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwlog.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libiawareperf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperf_client.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libimedia_filters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimedia_filters.so \
-    vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimonitor.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libispenhnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libispenhnc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libjpeghdrenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeghdrenc.so \
     vendor/huawei/hi6250-8-common/proprietary/vendor/lib64/libjtag_wdt_ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjtag_wdt_ctrl.so \
