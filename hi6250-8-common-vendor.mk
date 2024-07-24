@@ -2362,7 +2362,6 @@ PRODUCT_PACKAGES += \
     libnoveldrmengine \
     libwvhidl \
     liboemcrypto \
-    libril \
     HwIms \
     hwEmui \
     hwTelephony-common \
